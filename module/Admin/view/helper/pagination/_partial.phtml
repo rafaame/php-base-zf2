@@ -1,0 +1,53 @@
+<?php if ($this->pageCount): ?>
+
+    <ul class="pagination no-margin">
+
+        <?php if($this->previous): ?>
+
+            <li>
+
+                <a data-page="<?= $this->previous ?>" href="<?= $this->url($this->route, ['controller' => $this->controller, 'action' => $this->action, 'page' => $this->previous]) ?>"><?= $this->translate('Prev') ?></a>
+
+            </li>
+
+        <?php else: ?>
+
+            <li class="disabled">
+
+                <a href="#"><?= $this->translate('Prev') ?></a>
+
+            </li>
+
+        <?php endif ?>
+
+        <?php foreach($this->pagesInRange as $page): ?>
+
+            <li <?= $this->current == $page ? 'class="active"' : '' ?>>
+
+                <a data-page="<?= $page ?>" href="<?= $this->url('admin/wildcard', ['controller' => $this->controller, 'action' => $this->action, 'page' => $page]) ?>"><?= $page ?></a>
+
+            </li>
+
+        <?php endforeach ?>
+
+        <?php if($this->next): ?>
+
+            <li>
+
+                <a data-page="<?= $this->next ?>" href="<?= $this->url('admin/wildcard', ['controller' => $this->controller, 'action' => $this->action, 'page' => $this->next]) ?>"><?= $this->translate('Next') ?></a>
+
+            </li>
+
+        <?php else: ?>
+
+            <li class="disabled">
+
+                <a href="#"><?= $this->translate('Next') ?></a>
+
+            </li>
+
+        <?php endif ?>
+
+    </ul>
+    
+<?php endif; ?>

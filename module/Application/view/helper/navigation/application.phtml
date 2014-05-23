@@ -1,0 +1,15 @@
+<ul>
+	<li class="visible-xs visible-sm">Menu</li>
+<?php foreach($this->container as $page): ?>
+
+	<?php
+
+		$class = $page->get('class') . ( $page->isActive() ? ' active' : '' );
+
+	?>
+
+    <li <?= ( $class ? "class=\"$class\"" : '' ) ?>>
+        <a href="<?= $page->getHref() ?>"><?= $this->translate($page->getLabel()) ?></a>
+    </li>
+<?php endforeach ?>
+</ul>

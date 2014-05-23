@@ -1,0 +1,42 @@
+<?php
+
+$formLabel = $this->plugin('formLabel');
+
+//Add class to label
+$labelAttributes = array_merge( (array) $this->element->getLabelAttributes(), array('class' => 'control-label') );
+
+//Add class to input
+$inputErrorClass = $this->element->getMessages() ? 'parsley-validated parsley-error ' : '';
+$this->element->setAttribute( 'class', 'form-control ' . $inputErrorClass . $this->element->getAttribute('class') );
+
+?>
+
+<div class="control-group">
+
+	<?= $formLabel->openTag( $labelAttributes ) . $this->label . $formLabel->closeTag() ?>
+    <div class="controls form-group">
+
+        <div class="col-sm-8">
+
+        	<?= $this->formElement($this->element) ?>
+
+        	<?php if($this->renderErrors): ?>
+
+				<?=
+
+					$this	
+							->formElementErrors()
+			                ->setMessageOpenFormat('<ul class="parsley-error-list"><li>')
+			                ->setMessageSeparatorString('</li><li>')
+			                ->setMessageCloseString('</ul>')
+			                ->render($this->element)
+
+				?>
+
+			<?php endif ?>
+
+        </div>
+
+    </div>
+
+</div>

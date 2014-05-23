@@ -1,0 +1,42 @@
+<?php $this->form->prepare() ?>
+<?php $this->form->setAttribute('action', $this->url('admin', array('controller' => 'auth', 'action' => 'login'))) ?>
+<?php $this->form->setAttribute('class', 'no-margin') ?>
+<?php $formLabel = $this->plugin('formLabel') ?>
+
+<?= $this->form()->openTag($this->form) ?>
+
+<fieldset>
+	<div class="form-group no-margin">
+	    <label for="email"><?= $this->translate('Username') ?></label>
+
+	    <div class="input-group input-group-lg">
+	            <span class="input-group-addon">
+	                <i class="eicon-user"></i>
+	            </span>
+	        <?= $this->formInput($this->form->get('email')) ?>
+	    </div>
+
+	</div>
+
+	<div class="form-group">
+	    <label for="password"><?= $this->translate('Password') ?></label>
+
+	    <div class="input-group input-group-lg">
+	            <span class="input-group-addon">
+	                <i class="fa fa-lock"></i>
+	            </span>
+	        <?= $this->formInput($this->form->get('password')) ?>
+	    </div>
+
+	</div>
+</fieldset>
+
+<div class="form-actions">
+	<button type="submit" class="btn btn-block btn-lg btn-danger">
+	    <span class="small-circle"><i class="fa fa-caret-right"></i></span>
+	    <small><?= $this->translate('Login') ?></small>
+	</button>
+	<div class="forgot"><a class="forgot" href="#"><?= $this->translate('Forgot Username or Password?') ?></a></div>
+</div>
+
+<?= $this->form()->closeTag($this->form) ?>

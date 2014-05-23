@@ -1,0 +1,62 @@
+<nav id="sidebar" class="sidebar nav-collapse collapse">
+    <ul id="side-nav" class="side-nav">
+    <?php
+
+        $navId = 0;
+
+        foreach($this->container as $page):
+
+            $sub = $page->getPages();
+
+            $liClasses = array();
+            $liClass = '';
+ 
+            if ($page->isActive())
+                $liClasses[] = 'active'; 
+            
+            if(count($sub) > 0)
+                $liClasses[] = 'panel';
+
+            if (count($liClasses) > 0)
+                $liClass = implode(' ', $liClasses);
+
+    ?>
+
+        <li class="<?= $liClass ?>">
+
+            <?php if(count($sub) > 0): ?>
+
+                <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#side-nav" href="#nav-collapse<?= $navId ?>">
+                    <i class="<?= $page->get('icon') ?>"></i>
+                    <span class="name"><?= $this->translate($page->getLabel()) ?></span>
+                </a>
+
+                <ul id="nav-collapse<?= $navId++ ?>" class="panel-collapse collapse">
+
+                    <?php foreach($sub as $pages): ?>
+
+                        <li><a href="<?= $pages->getHref() ?>"><?= $this->translate($pages->getLabel()) ?></a></li>
+
+                    <?php endforeach; ?>
+
+                </ul>
+
+            <?php else: ?>
+
+                <a href="<?= $page->getHref() ?>"><i class="<?= $page->get('icon') ?>"></i> <span class="name"><?= $this->translate($page->getLabel()) ?></span></a>
+
+            <?php endif; ?>
+
+        </li>
+        
+    <?php endforeach; ?>
+    </ul>
+    <div id="sidebar-settings" class="settings">
+        <button type="button"
+                data-value="icons"
+                class="btn-icons btn btn-transparent btn-sm">Icons</button>
+        <button type="button"
+                data-value="auto"
+                class="btn-auto btn btn-transparent btn-sm">Auto</button>
+    </div>
+</nav>

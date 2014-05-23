@@ -1,0 +1,106 @@
+@import "../vendor/bootstrap/less/bootstrap.less";
+@import "../vendor/font-awesome/less/font-awesome.less";
+
+@import "variables.less";
+@import "mixins.less";
+@import "fonts.less";
+
+@import "header.less";
+@import "nav.less";
+@import "footer.less";
+
+@import "forms.less";
+@import "buttons.less";
+
+@import "pages/generic.less";
+
+@import "pages/home.less";
+
+.full-width
+{
+
+	width: 100%;
+
+}
+
+.no-margin
+{
+
+	margin: 0 !important;
+
+}
+
+.no-box-shadow
+{
+
+	box-shadow: none !important;
+
+}
+
+.text-indent
+{
+
+	text-indent: 25px;
+
+}
+
+.visible-xs-inline
+{
+
+	display: inline !important;
+
+	@media (min-width: @screen-sm-min)
+	{
+
+		display: none !important;
+
+	}
+
+}
+
+.hidden-xs-inline
+{
+
+	display: none !important;
+
+	@media (min-width: @screen-sm-min)
+	{
+
+		display: inline !important;
+
+	}
+
+}
+
+.flash-messenger
+{
+
+	position: fixed;
+
+	top: 0;
+	left: 0;
+
+	width: 100%;
+
+	z-index: 1000;
+
+	li
+	{
+
+		list-style: none;
+
+	}
+
+}
+
+.top1 { padding-top: 10px; }
+.top2 { padding-top: 20px; }
+.top3 { padding-top: 30px; }
+.top4 { padding-top: 40px; }
+.top5 { padding-top: 50px; }
+
+.bottom1 { padding-bottom: 10px; }
+.bottom2 { padding-bottom: 20px; }
+.bottom3 { padding-bottom: 30px; }
+.bottom4 { padding-bottom: 40px; }
+.bottom5 { padding-bottom: 50px; }

@@ -1,0 +1,47 @@
+<?php
+
+return
+[
+
+    'general' =>
+    [
+
+        'uri' => new \Zend\Uri\Http('http://url.com'),
+
+    ],
+
+    'smtp' =>
+    [
+
+        'email-campaign' =>
+        [
+            'options' =>
+            [
+
+                'name' => 'host.com',
+                'host' => 'host.com',
+                'port'=> 587,
+                'connection_class' => 'login',
+
+                'connection_config' =>
+                [
+
+                    'username' => '',
+                    'password' => '',
+                    'ssl'=> 'tls',
+
+                ],
+
+            ],
+
+            'identity_config' =>
+            [
+
+                'from' => 'email@host.com',
+                'from-name' => 'Name Example',
+
+            ],
+        ],
+    ],
+    
+];

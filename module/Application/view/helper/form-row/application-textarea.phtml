@@ -1,0 +1,47 @@
+<?php
+
+$formLabel = $this->plugin('formLabel');
+
+$inputErrorClass = $this->element->getMessages() ? 'error ' : '';
+$this->element->setAttribute( 'class', 'form-control ' . $inputErrorClass . $this->element->getAttribute('class') );
+
+?>
+
+<div class="element">
+
+	<?php if($this->label): ?>
+
+		<div class="label">
+
+			<?= $formLabel->openTag( $labelAttributes ) . $this->label . $formLabel->closeTag() ?>
+
+		</div>
+
+		<div class="input">
+
+	<?php else: ?>
+
+		<div class="centered">
+
+	<?php endif ?>
+
+    	<?= $this->formElement($this->element) ?>
+
+    	<?php if($this->renderErrors): ?>
+
+			<?=
+
+				$this	
+						->formElementErrors()
+		                ->setMessageOpenFormat('<ul class="error-list"><li>')
+		                ->setMessageSeparatorString('</li><li>')
+		                ->setMessageCloseString('</ul>')
+		                ->render($this->element)
+
+			?>
+
+		<?php endif ?>
+
+    </div>
+
+</div>

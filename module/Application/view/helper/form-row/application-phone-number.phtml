@@ -1,0 +1,27 @@
+<?php
+
+$inputErrorClass = $this->element->getMessages() ? 'error ' : '';
+$this->element->setAttribute( 'class', 'form-control ' . $inputErrorClass . $this->element->getAttribute('class') );
+
+?>
+
+		<?= $this->formElement($this->element) ?>
+
+		<?php if($this->renderErrors): ?>
+
+			<?=
+
+				$this	
+						->formElementErrors()
+		                ->setMessageOpenFormat('<ul class="error-list"><li>')
+		                ->setMessageSeparatorString('</li><li>')
+		                ->setMessageCloseString('</ul>')
+		                ->render($this->element)
+
+			?>
+
+		<?php endif ?>
+
+    </div>
+
+</div>

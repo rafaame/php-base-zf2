@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title><?= $this->translate('Zend Framework 2 + Bootstrap 3 Base') ?></title>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <link href="/img/favicon.png" rel="shortcut icon">
+        <link href="/css/style.min.css" rel="stylesheet">
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+
+        <!--[if lt IE 9]>
+
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+
+        <![endif]-->
+
+    </head>
+    <body>
+
+        <?= $this->flashMessenger()->render('error', array('text-center')) ?>
+        <?= $this->flashMessenger()->render('default', array('text-center')) ?>
+        <?= $this->flashMessenger()->render('info', array('text-center')) ?>
+        <?= $this->flashMessenger()->render('success', array('text-center')) ?>
+
+        <div class="container">
+
+            <header class="row">
+
+                <div class="col-xs-12 text-center">
+                    
+                    <h1>Header</h1>
+
+                </div>
+
+            </header>
+
+            <div class="row top2">
+
+                <nav class="col-xs-3">
+
+                    <h5 class="text-center bottom2">Navigation</h3>
+
+                    <?= $this->navigation('Application\Navigation')->menu()->setPartial(['helper/navigation/application.phtml', 'Application'])->render() ?>
+
+                </nav>
+
+                <section class="col-xs-9">
+
+                    <?= $this->layout()->content ?>
+
+                </section>
+
+            </div>
+
+        </div>
+
+        <script src="/js/script.min.js"></script>
+        <?= $this->inlineScript() ?>
+
+    </body>
+</html>

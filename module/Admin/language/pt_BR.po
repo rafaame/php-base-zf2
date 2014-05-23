@@ -1,0 +1,980 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ZendSkeletonApplication\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-02-01 12:38-0300\n"
+"PO-Revision-Date: 2014-02-01 12:38-0300\n"
+"Last-Translator: Diogo Melo <dmelo87@gmail.com>\n"
+"Language-Team: ZF Contibutors <zf-devteam@zend.com>\n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: translate\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 1.6.3\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../src/Admin/Controller/CategoryController.php:227
+msgid "This category's image was successfully cleared."
+msgstr ""
+
+#: ../src/Admin/Controller/CategoryController.php:231
+msgid "A category with this ID was not found in the database."
+msgstr ""
+
+#: ../src/Admin/Controller/OrderController.php:52
+#: ../view/admin/order/print.phtml:44
+msgid "SS, NN, CC - ZZ - RR"
+msgstr ""
+
+#: ../src/Admin/Controller/OrderController.php:52
+msgid "Pick up on site"
+msgstr ""
+
+#: ../src/Admin/Controller/OrderController.php:78
+#: ../src/Admin/Controller/OrderController.php:102
+#: ../src/Admin/Controller/OrderController.php:248
+#: ../view/admin/order/list.phtml:42 ../view/admin/order/print.phtml:34
+msgid "H:i"
+msgstr ""
+
+#: ../src/Admin/Controller/OrderController.php:89
+#: ../view/admin/order/print.phtml:15
+msgid "+CC (AC) N"
+msgstr ""
+
+#: ../src/Admin/Controller/OrderController.php:96
+#: ../view/admin/order/list.phtml:40 ../view/admin/order/print.phtml:2
+#, php-format
+msgid "P%s"
+msgstr ""
+
+#: ../src/Admin/Controller/OrderController.php:98
+#: ../src/Admin/Controller/OrderController.php:99
+#: ../src/Admin/Controller/OrderController.php:101
+#: ../src/Admin/Controller/OrderController.php:223
+#: ../src/Admin/Controller/OrderController.php:542
+#: ../view/admin/order/print.phtml:23 ../view/admin/order/print.phtml:25
+#: ../view/admin/order/print.phtml:27 ../view/admin/order/print.phtml:29
+#: ../view/admin/order/print.phtml:59
+msgid "USD"
+msgstr ""
+
+#: ../src/Admin/Controller/OrderController.php:103
+#: ../src/Admin/Controller/OrderController.php:104
+#: ../src/Admin/Controller/OrderController.php:105
+#: ../src/Admin/Controller/OrderController.php:106
+msgid "H:i:s"
+msgstr ""
+
+#: ../src/Admin/Controller/OrderController.php:103
+#: ../src/Admin/Controller/OrderController.php:104
+#: ../src/Admin/Controller/OrderController.php:105
+#: ../src/Admin/Controller/OrderController.php:106
+#: ../src/Admin/Controller/OrderController.php:110
+#: ../src/Admin/Controller/OrderController.php:114
+#: ../view/admin/order/list.phtml:350 ../view/admin/order/list.phtml:383
+#: ../view/admin/order/list.phtml:413 ../view/admin/product/list.phtml:32
+msgid "None"
+msgstr ""
+
+#: ../src/Admin/Controller/OrderController.php:109
+#: ../src/Admin/Controller/OrderController.php:113
+msgid "%hh, %i min and %ss"
+msgstr ""
+
+#: ../src/Admin/Controller/OrderController.php:455
+msgid "Order marked as paid."
+msgstr ""
+
+#: ../src/Admin/Controller/OrderController.php:457
+msgid "Order marked as unpaid."
+msgstr ""
+
+#: ../src/Admin/Controller/OrderController.php:468
+msgid ""
+"The order you refer is unapproved. Only approved orders can be marked as "
+"paid."
+msgstr ""
+
+#: ../src/Admin/Controller/OrderController.php:472
+msgid "An order with this ID was not found in the database."
+msgstr ""
+
+#: ../src/Admin/Controller/ProductController.php:217
+msgid "Saved successfully."
+msgstr ""
+
+#: ../src/Admin/Controller/ProductController.php:245
+msgid "This nesting is invalid. The maximum nesting level for categories is 2."
+msgstr ""
+
+#: ../view/admin/admin/add.phtml:8 ../view/admin/admin/edit.phtml:8
+#: ../view/admin/admin/list.phtml:4
+msgid "Admin"
+msgstr ""
+
+#: ../view/admin/admin/add.phtml:8 ../view/admin/admin/list.phtml:62
+#: ../view/admin/category/add.phtml:8 ../view/admin/category/list.phtml:61
+#: ../view/admin/customer/add.phtml:8 ../view/admin/customer/list.phtml:63
+#: ../view/admin/email-campaign/add.phtml:8
+#: ../view/admin/email-campaign/list.phtml:103
+#: ../view/admin/phone-number/add.phtml:8 ../view/admin/product/add.phtml:8
+#: ../view/admin/product/list.phtml:63
+#: ../view/admin/street-address/add.phtml:8
+msgid "Add"
+msgstr ""
+
+#: ../view/admin/admin/add.phtml:24 ../view/admin/admin/edit.phtml:24
+#: ../view/admin/category/add.phtml:24 ../view/admin/category/edit.phtml:24
+#: ../view/admin/customer/add.phtml:24 ../view/admin/customer/edit.phtml:24
+#: ../view/admin/email-campaign/add.phtml:24
+#: ../view/admin/email-campaign/edit.phtml:24
+#: ../view/admin/phone-number/add.phtml:25
+#: ../view/admin/phone-number/edit.phtml:25 ../view/admin/product/add.phtml:24
+#: ../view/admin/product/edit.phtml:24
+#: ../view/admin/street-address/add.phtml:25
+#: ../view/admin/street-address/edit.phtml:25
+#, fuzzy
+msgid "Basic Information"
+msgstr "Informação adicional"
+
+#: ../view/admin/admin/add.phtml:37 ../view/admin/admin/edit.phtml:37
+#: ../view/admin/category/add.phtml:38 ../view/admin/category/edit.phtml:39
+#: ../view/admin/customer/add.phtml:39 ../view/admin/customer/edit.phtml:39
+#: ../view/admin/email-campaign/add.phtml:36
+#: ../view/admin/email-campaign/edit.phtml:36
+#: ../view/admin/phone-number/add.phtml:38
+#: ../view/admin/phone-number/edit.phtml:38 ../view/admin/product/add.phtml:39
+#: ../view/admin/product/edit.phtml:39 ../view/admin/product/nesting.phtml:27
+#: ../view/admin/street-address/add.phtml:39
+#: ../view/admin/street-address/edit.phtml:39
+msgid "Save"
+msgstr ""
+
+#: ../view/admin/admin/add.phtml:38 ../view/admin/category/add.phtml:39
+#: ../view/admin/customer/add.phtml:40 ../view/admin/product/add.phtml:40
+msgid "Save and Add More"
+msgstr ""
+
+#: ../view/admin/admin/add.phtml:44 ../view/admin/admin/edit.phtml:43
+#: ../view/admin/category/add.phtml:45 ../view/admin/category/edit.phtml:45
+#: ../view/admin/customer/add.phtml:46 ../view/admin/customer/edit.phtml:45
+#: ../view/admin/email-campaign/add.phtml:42
+#: ../view/admin/email-campaign/edit.phtml:42
+#: ../view/admin/phone-number/add.phtml:44
+#: ../view/admin/phone-number/edit.phtml:44 ../view/admin/product/add.phtml:46
+#: ../view/admin/product/edit.phtml:45
+#: ../view/admin/street-address/add.phtml:45
+#: ../view/admin/street-address/edit.phtml:45
+msgid "Cancel"
+msgstr ""
+
+#: ../view/admin/admin/edit.phtml:8 ../view/admin/admin/list.phtml:34
+#: ../view/admin/category/edit.phtml:8 ../view/admin/category/list.phtml:38
+#: ../view/admin/customer/edit.phtml:8 ../view/admin/customer/list.phtml:40
+#: ../view/admin/email-campaign/edit.phtml:8
+#: ../view/admin/email-campaign/list.phtml:74
+#: ../view/admin/email-campaign/logs.phtml:5
+#: ../view/admin/order/list.phtml:475 ../view/admin/phone-number/edit.phtml:8
+#: ../view/admin/product/edit.phtml:8 ../view/admin/product/list.phtml:40
+#: ../view/admin/street-address/edit.phtml:8
+msgid "Edit"
+msgstr ""
+
+#: ../view/admin/admin/list.phtml:4 ../view/admin/category/list.phtml:4
+#: ../view/admin/customer/list.phtml:4
+#: ../view/admin/email-campaign/list.phtml:4 ../view/admin/order/list.phtml:9
+#: ../view/admin/product/list.phtml:4
+msgid "Management"
+msgstr ""
+
+#: ../view/admin/admin/list.phtml:13
+msgid "Admins"
+msgstr ""
+
+#: ../view/admin/admin/list.phtml:45 ../view/admin/customer/list.phtml:48
+msgid "Delete Customer"
+msgstr ""
+
+#: ../view/admin/admin/list.phtml:46
+#, php-format
+msgid "Are you sure you want to delete admin %s (ID %s)?"
+msgstr ""
+
+#: ../view/admin/admin/list.phtml:47 ../view/admin/category/list.phtml:33
+#: ../view/admin/category/list.phtml:48 ../view/admin/customer/edit.phtml:104
+#: ../view/admin/customer/edit.phtml:168 ../view/admin/customer/list.phtml:35
+#: ../view/admin/customer/list.phtml:50
+#: ../view/admin/email-campaign/edit.phtml:129
+#: ../view/admin/email-campaign/edit.phtml:145
+#: ../view/admin/email-campaign/list.phtml:65
+#: ../view/admin/email-campaign/list.phtml:85
+#: ../view/admin/order/list.phtml:45 ../view/admin/order/list.phtml:51
+#: ../view/admin/order/list.phtml:73 ../view/admin/order/list.phtml:99
+#: ../view/admin/order/list.phtml:318 ../view/admin/order/list.phtml:492
+#: ../view/admin/order/list.phtml:506 ../view/admin/order/list.phtml:659
+#: ../view/admin/order/print.phtml:73 ../view/admin/order/print.phtml:78
+#: ../view/admin/order/print.phtml:83 ../view/admin/product/list.phtml:35
+#: ../view/admin/product/list.phtml:50
+msgid "Yes"
+msgstr ""
+
+#: ../view/admin/admin/list.phtml:48 ../view/admin/category/list.phtml:33
+#: ../view/admin/category/list.phtml:49 ../view/admin/customer/edit.phtml:105
+#: ../view/admin/customer/edit.phtml:169 ../view/admin/customer/list.phtml:35
+#: ../view/admin/customer/list.phtml:51
+#: ../view/admin/email-campaign/edit.phtml:130
+#: ../view/admin/email-campaign/edit.phtml:146
+#: ../view/admin/email-campaign/list.phtml:66
+#: ../view/admin/email-campaign/list.phtml:86
+#: ../view/admin/order/list.phtml:45 ../view/admin/order/list.phtml:51
+#: ../view/admin/order/list.phtml:74 ../view/admin/order/list.phtml:100
+#: ../view/admin/order/list.phtml:318 ../view/admin/order/list.phtml:498
+#: ../view/admin/order/list.phtml:512 ../view/admin/order/list.phtml:660
+#: ../view/admin/order/print.phtml:73 ../view/admin/order/print.phtml:78
+#: ../view/admin/order/print.phtml:83 ../view/admin/product/list.phtml:35
+#: ../view/admin/product/list.phtml:51
+msgid "No"
+msgstr ""
+
+#: ../view/admin/admin/list.phtml:50 ../view/admin/category/list.phtml:51
+#: ../view/admin/customer/list.phtml:53
+#: ../view/admin/email-campaign/list.phtml:88
+#: ../view/admin/order/list.phtml:102 ../view/admin/product/list.phtml:53
+msgid "Delete"
+msgstr ""
+
+#: ../view/admin/auth/login.phtml:10
+msgid "Username"
+msgstr ""
+
+#: ../view/admin/auth/login.phtml:22
+msgid "Password"
+msgstr ""
+
+#: ../view/admin/auth/login.phtml:37
+msgid "Login"
+msgstr ""
+
+#: ../view/admin/auth/login.phtml:39
+msgid "Forgot Username or Password?"
+msgstr ""
+
+#: ../view/admin/category/add.phtml:8 ../view/admin/category/edit.phtml:8
+#: ../view/admin/category/list.phtml:4
+msgid "Category"
+msgstr ""
+
+#: ../view/admin/category/edit.phtml:72
+msgid "Clear Image"
+msgstr ""
+
+#: ../view/admin/category/list.phtml:13
+msgid "Categories"
+msgstr ""
+
+#: ../view/admin/category/list.phtml:46
+msgid "Delete Category"
+msgstr ""
+
+#: ../view/admin/category/list.phtml:47
+#, php-format
+msgid "Are you sure you want to delete category %s (ID %s)?"
+msgstr ""
+
+#: ../view/admin/customer/add.phtml:8 ../view/admin/customer/edit.phtml:8
+#: ../view/admin/customer/list.phtml:4 ../view/admin/order/list.phtml:234
+#: ../view/admin/order/print.phtml:7
+msgid "Customer"
+msgstr ""
+
+#: ../view/admin/customer/edit.phtml:68
+msgid "Street Addresses"
+msgstr ""
+
+#: ../view/admin/customer/edit.phtml:102
+msgid "Delete Street Address"
+msgstr ""
+
+#: ../view/admin/customer/edit.phtml:103
+#, php-format
+msgid "Are you sure you want do delete street address of ID %s?"
+msgstr ""
+
+#: ../view/admin/customer/edit.phtml:123
+msgid "No street addresses were found."
+msgstr ""
+
+#: ../view/admin/customer/edit.phtml:132 ../view/admin/order/print.phtml:12
+msgid "Phones"
+msgstr ""
+
+#: ../view/admin/customer/edit.phtml:166
+msgid "Delete Phone Number"
+msgstr ""
+
+#: ../view/admin/customer/edit.phtml:167
+#, php-format
+msgid "Are you sure you want do delete phone number of ID %s?"
+msgstr ""
+
+#: ../view/admin/customer/edit.phtml:187
+msgid "No phone numbers were found."
+msgstr ""
+
+#: ../view/admin/customer/edit.phtml:202
+msgid "Add Street Address"
+msgstr ""
+
+#: ../view/admin/customer/edit.phtml:209
+msgid "Add Phone Number"
+msgstr ""
+
+#: ../view/admin/customer/list.phtml:13
+msgid "Customers"
+msgstr ""
+
+#: ../view/admin/customer/list.phtml:49
+#, php-format
+msgid "Are you sure you want to delete customer %s (ID %s)?"
+msgstr ""
+
+#: ../view/admin/email-campaign/add.phtml:8
+#: ../view/admin/email-campaign/edit.phtml:8
+#: ../view/admin/email-campaign/list.phtml:4
+#: ../view/admin/email-campaign/logs.phtml:5
+msgid "Email Campaign"
+msgstr ""
+
+#: ../view/admin/email-campaign/edit.phtml:57
+msgid "Dispatches"
+msgstr ""
+
+#: ../view/admin/email-campaign/edit.phtml:75
+msgid "Y-m-d H:i:s"
+msgstr ""
+
+#: ../view/admin/email-campaign/edit.phtml:89
+#: ../view/admin/email-campaign/list.phtml:45
+msgid "%s% Complete"
+msgstr ""
+
+#: ../view/admin/email-campaign/edit.phtml:100
+msgid "Processing"
+msgstr ""
+
+#: ../view/admin/email-campaign/edit.phtml:127
+msgid "Abort Email Campaign Dispatch"
+msgstr ""
+
+#: ../view/admin/email-campaign/edit.phtml:128
+#, php-format
+msgid ""
+"Are you sure you want to abort email campaign %s (ID %s) currently active "
+"dispatch?"
+msgstr ""
+
+#: ../view/admin/email-campaign/edit.phtml:132
+msgid "Abort Dispatch"
+msgstr ""
+
+#: ../view/admin/email-campaign/edit.phtml:143
+#: ../view/admin/email-campaign/list.phtml:63
+msgid "Dispatch Email Campaign"
+msgstr ""
+
+#: ../view/admin/email-campaign/edit.phtml:144
+#: ../view/admin/email-campaign/list.phtml:64
+#, php-format
+msgid ""
+"You are going to dispatch the email campaign %s. It may take several minutes "
+"depending on your customer database size. Are you sure?"
+msgstr ""
+
+#: ../view/admin/email-campaign/edit.phtml:148
+#: ../view/admin/email-campaign/list.phtml:68
+msgid "Dispatch"
+msgstr ""
+
+#: ../view/admin/email-campaign/list.phtml:13
+msgid "Email Campaigns"
+msgstr ""
+
+#: ../view/admin/email-campaign/list.phtml:83
+msgid "Delete Email Campaign"
+msgstr ""
+
+#: ../view/admin/email-campaign/list.phtml:84
+#, php-format
+msgid "Are you sure you want to delete email campaign %s (ID %s)?"
+msgstr ""
+
+#: ../view/admin/email-campaign/list.phtml:92
+msgid "View Logs"
+msgstr ""
+
+#: ../view/admin/email-campaign/logs.phtml:23
+msgid "Log"
+msgstr ""
+
+#: ../view/admin/email-campaign/logs.phtml:34
+msgid "Error Log"
+msgstr ""
+
+#: ../view/admin/email-campaign/logs.phtml:53
+msgid "Clear Logs"
+msgstr ""
+
+#: ../view/admin/email-campaign/logs.phtml:60
+msgid "Back"
+msgstr ""
+
+#: ../view/admin/order/list.phtml:9 ../view/admin/order/print.phtml:23
+#: ../view/admin/order/print.phtml:47
+msgid "Order"
+msgstr ""
+
+#: ../view/admin/order/list.phtml:18
+msgid "Today Orders"
+msgstr ""
+
+#: ../view/admin/order/list.phtml:62
+msgid "Reload"
+msgstr ""
+
+#: ../view/admin/order/list.phtml:71
+msgid "Count the Money in the Till"
+msgstr ""
+
+#: ../view/admin/order/list.phtml:72
+msgid ""
+"Are you sure you want to count the money in the till? All active orders will "
+"be marked as inactive and the order number will be reseted."
+msgstr ""
+
+#: ../view/admin/order/list.phtml:76
+msgid "Count Money in the Till"
+msgstr ""
+
+#: ../view/admin/order/list.phtml:81 ../view/admin/order/list.phtml:545
+msgid "Mark as Paid"
+msgstr ""
+
+#: ../view/admin/order/list.phtml:84 ../view/admin/order/list.phtml:555
+msgid "Approve"
+msgstr ""
+
+#: ../view/admin/order/list.phtml:90
+msgid "Print Order"
+msgstr ""
+
+#: ../view/admin/order/list.phtml:98
+msgid "Delete Order"
+msgstr ""
+
+#: ../view/admin/order/list.phtml:121
+msgid "Order Info"
+msgstr ""
+
+#: ../view/admin/order/list.phtml:122
+msgid "Customer Info"
+msgstr ""
+
+#: ../view/admin/order/list.phtml:123
+msgid "Ordered Products"
+msgstr ""
+
+#: ../view/admin/order/list.phtml:136
+msgid "Order Number"
+msgstr ""
+
+#: ../view/admin/order/list.phtml:140
+msgid "Status"
+msgstr ""
+
+#: ../view/admin/order/list.phtml:141
+msgid "Status History"
+msgstr ""
+
+#: ../view/admin/order/list.phtml:144
+msgid "Order Time"
+msgstr ""
+
+#: ../view/admin/order/list.phtml:148
+msgid "Payment Method"
+msgstr ""
+
+#: ../view/admin/order/list.phtml:152 ../view/admin/order/print.phtml:19
+msgid "Price"
+msgstr ""
+
+#: ../view/admin/order/list.phtml:156 ../view/admin/order/print.phtml:29
+msgid "Change"
+msgstr ""
+
+#: ../view/admin/order/list.phtml:160
+msgid "Shipping Price"
+msgstr ""
+
+#: ../view/admin/order/list.phtml:164
+msgid "Started Cooking At"
+msgstr ""
+
+#: ../view/admin/order/list.phtml:168
+msgid "Finished Cooking At"
+msgstr ""
+
+#: ../view/admin/order/list.phtml:172
+msgid "Shipped At"
+msgstr ""
+
+#: ../view/admin/order/list.phtml:176
+msgid "Received At"
+msgstr ""
+
+#: ../view/admin/order/list.phtml:180
+msgid "Cooking Time"
+msgstr ""
+
+#: ../view/admin/order/list.phtml:184
+msgid "Shipping Time"
+msgstr ""
+
+#: ../view/admin/order/list.phtml:188
+msgid "Period"
+msgstr ""
+
+#: ../view/admin/order/list.phtml:193 ../view/admin/order/list.phtml:194
+#: ../view/admin/order/print.phtml:86
+msgid "Notes"
+msgstr ""
+
+#: ../view/admin/order/list.phtml:197 ../view/admin/order/print.phtml:66
+msgid "Chopsticks"
+msgstr ""
+
+#: ../view/admin/order/list.phtml:201 ../view/admin/order/print.phtml:71
+msgid "Soy Sauce?"
+msgstr ""
+
+#: ../view/admin/order/list.phtml:205 ../view/admin/order/print.phtml:76
+msgid "Wasabi?"
+msgstr ""
+
+#: ../view/admin/order/list.phtml:209 ../view/admin/order/print.phtml:81
+msgid "Gari?"
+msgstr ""
+
+#: ../view/admin/order/list.phtml:213
+msgid "Approved"
+msgstr ""
+
+#: ../view/admin/order/list.phtml:217
+msgid "Paid"
+msgstr ""
+
+#: ../view/admin/order/list.phtml:238
+msgid "Customer Phones"
+msgstr ""
+
+#: ../view/admin/order/list.phtml:239
+msgid "Customer Phones List"
+msgstr ""
+
+#: ../view/admin/order/list.phtml:242 ../view/admin/order/print.phtml:42
+msgid "Address"
+msgstr ""
+
+#: ../view/admin/order/list.phtml:252 ../view/admin/product/add.phtml:8
+#: ../view/admin/product/edit.phtml:8 ../view/admin/product/list.phtml:4
+msgid "Product"
+msgstr ""
+
+#: ../view/admin/order/list.phtml:253
+msgid "Quantity"
+msgstr ""
+
+#: ../view/admin/order/list.phtml:254
+msgid "Unit Price"
+msgstr ""
+
+#: ../view/admin/order/list.phtml:255
+#, fuzzy
+msgid "Additional Info"
+msgstr "Informação adicional"
+
+#: ../view/admin/order/list.phtml:369 ../view/admin/order/list.phtml:379
+msgid "at"
+msgstr ""
+
+#: ../view/admin/order/list.phtml:407
+msgid "click to view"
+msgstr ""
+
+#: ../view/admin/order/list.phtml:525
+msgid ""
+"Are you sure you want to delete order #__ID__? This will impact in your "
+"statistics."
+msgstr ""
+
+#: ../view/admin/order/list.phtml:532
+msgid "Unapprove"
+msgstr ""
+
+#: ../view/admin/order/list.phtml:539
+msgid "Mark as Unpaid"
+msgstr ""
+
+#: ../view/admin/order/list.phtml:640
+msgid ""
+"Changing the period may result in the order disappearing from this page. Are "
+"you sure?"
+msgstr ""
+
+#: ../view/admin/order/print.phtml:21
+msgid "Payment"
+msgstr ""
+
+#: ../view/admin/order/print.phtml:25
+msgid "Shipping"
+msgstr ""
+
+#: ../view/admin/order/print.phtml:27
+msgid "Total"
+msgstr ""
+
+#: ../view/admin/order/print.phtml:32
+msgid "Time"
+msgstr ""
+
+#: ../view/admin/order/print.phtml:37
+msgid "Date"
+msgstr ""
+
+#: ../view/admin/order/print.phtml:39
+msgid "Y-m-d"
+msgstr ""
+
+#: ../view/admin/order/print.phtml:44
+msgid "Pick up the order"
+msgstr ""
+
+#: ../view/admin/phone-number/add.phtml:8
+#: ../view/admin/phone-number/edit.phtml:8
+msgid "Phone Number"
+msgstr ""
+
+#: ../view/admin/phone-number/add.phtml:18
+#: ../view/admin/phone-number/edit.phtml:18
+#: ../view/admin/street-address/add.phtml:18
+#: ../view/admin/street-address/edit.phtml:18
+#, php-format
+msgid "Customer: %s"
+msgstr ""
+
+#: ../view/admin/product/list.phtml:13
+msgid "Products"
+msgstr ""
+
+#: ../view/admin/product/list.phtml:48
+msgid "Delete Product"
+msgstr ""
+
+#: ../view/admin/product/list.phtml:49
+#, php-format
+msgid "Are you sure you want to delete product %s (ID %s)?"
+msgstr ""
+
+#: ../view/admin/product/nesting.phtml:4
+msgid "Category and Product"
+msgstr ""
+
+#: ../view/admin/product/nesting.phtml:4
+msgid "Nesting"
+msgstr ""
+
+#: ../view/admin/product/nesting.phtml:13
+msgid "Organize Categories and Products"
+msgstr ""
+
+#: ../view/admin/statistics/customers.phtml:7
+#: ../view/admin/statistics/monetary.phtml:7
+#: ../view/admin/statistics/products.phtml:7
+msgid "Statistics Parameters"
+msgstr ""
+
+#: ../view/admin/statistics/customers.phtml:17
+#: ../view/admin/statistics/monetary.phtml:17
+#: ../view/admin/statistics/products.phtml:17
+msgid "From"
+msgstr ""
+
+#: ../view/admin/statistics/customers.phtml:34
+#: ../view/admin/statistics/monetary.phtml:34
+#: ../view/admin/statistics/products.phtml:34
+msgid "To"
+msgstr ""
+
+#: ../view/admin/statistics/customers.phtml:50
+#: ../view/admin/statistics/monetary.phtml:50
+#: ../view/admin/statistics/products.phtml:50
+msgid "Range"
+msgstr ""
+
+#: ../view/admin/statistics/customers.phtml:53
+#: ../view/admin/statistics/monetary.phtml:53
+#: ../view/admin/statistics/products.phtml:53
+msgid "Daily"
+msgstr ""
+
+#: ../view/admin/statistics/customers.phtml:54
+#: ../view/admin/statistics/monetary.phtml:54
+#: ../view/admin/statistics/products.phtml:54
+msgid "Monthly"
+msgstr ""
+
+#: ../view/admin/statistics/customers.phtml:55
+#: ../view/admin/statistics/monetary.phtml:55
+#: ../view/admin/statistics/products.phtml:55
+msgid "Yearly"
+msgstr ""
+
+#: ../view/admin/statistics/customers.phtml:69
+#: ../view/admin/statistics/monetary.phtml:69
+#: ../view/admin/statistics/products.phtml:69
+msgid "Load"
+msgstr ""
+
+#: ../view/admin/statistics/customers.phtml:83
+msgid "Statistics <small>most valuable customers</small>"
+msgstr ""
+
+#: ../view/admin/statistics/customers.phtml:90
+msgid "Spent Money per Customer"
+msgstr ""
+
+#: ../view/admin/statistics/customers.phtml:102
+msgid "Orders per Customer"
+msgstr ""
+
+#: ../view/admin/statistics/customers.phtml:135
+#: ../view/admin/statistics/customers.phtml:163
+#: ../view/admin/statistics/monetary.phtml:135
+#: ../view/admin/statistics/monetary.phtml:163
+#: ../view/admin/statistics/products.phtml:135
+#: ../view/admin/statistics/products.phtml:163
+#, php-format
+msgid "%x"
+msgstr ""
+
+#: ../view/admin/statistics/monetary.phtml:83
+msgid "Statistics <small>monetary</small>"
+msgstr ""
+
+#: ../view/admin/statistics/monetary.phtml:90
+msgid "Income Amount"
+msgstr ""
+
+#: ../view/admin/statistics/monetary.phtml:102
+msgid "Amount of Orders"
+msgstr ""
+
+#: ../view/admin/statistics/products.phtml:83
+msgid "Statistics <small>most selling products</small>"
+msgstr ""
+
+#: ../view/admin/statistics/products.phtml:90
+msgid "Amount of Money per Product"
+msgstr ""
+
+#: ../view/admin/statistics/products.phtml:102
+msgid "Quantity per Product"
+msgstr ""
+
+#: ../view/admin/street-address/add.phtml:8
+#: ../view/admin/street-address/edit.phtml:8
+msgid "Street Address"
+msgstr ""
+
+#: ../view/error/404.phtml:1
+msgid "A 404 error occurred"
+msgstr "Ocorreu um erro 404"
+
+#: ../view/error/404.phtml:10
+msgid "The requested controller was unable to dispatch the request."
+msgstr "O controlador requisitado não foi capaz de despachar a requisição."
+
+#: ../view/error/404.phtml:13
+msgid ""
+"The requested controller could not be mapped to an existing controller class."
+msgstr ""
+"O controlador requisitados não pode ser mapeado a uma classe de controlador "
+"existente."
+
+#: ../view/error/404.phtml:16
+msgid "The requested controller was not dispatchable."
+msgstr "O controlador requisitado não foi despachado."
+
+#: ../view/error/404.phtml:19
+msgid "The requested URL could not be matched by routing."
+msgstr "A URL requisitada não pode ser encontrada em uma rota."
+
+#: ../view/error/404.phtml:22
+msgid "We cannot determine at this time why a 404 was generated."
+msgstr "Não foi possível determinar o motivo do 404 ter ocorrido."
+
+#: ../view/error/404.phtml:34
+msgid "Controller"
+msgstr "Controlador"
+
+#: ../view/error/404.phtml:41
+#, php-format
+msgid "resolves to %s"
+msgstr "resolve como %s"
+
+#: ../view/error/404.phtml:53 ../view/error/index.phtml:8
+msgid "Additional information"
+msgstr "Informação adicional"
+
+#: ../view/error/404.phtml:56 ../view/error/404.phtml:80
+#: ../view/error/index.phtml:11 ../view/error/index.phtml:35
+msgid "File"
+msgstr "Arquivo"
+
+#: ../view/error/404.phtml:60 ../view/error/404.phtml:84
+#: ../view/error/index.phtml:15 ../view/error/index.phtml:39
+msgid "Message"
+msgstr "Mensagem"
+
+#: ../view/error/404.phtml:64 ../view/error/404.phtml:88
+#: ../view/error/index.phtml:19 ../view/error/index.phtml:43
+msgid "Stack trace"
+msgstr "Pilha de execução"
+
+#: ../view/error/404.phtml:74 ../view/error/index.phtml:29
+msgid "Previous exceptions"
+msgstr "Exceções anteriores"
+
+#: ../view/error/404.phtml:103 ../view/error/index.phtml:58
+msgid "No Exception available"
+msgstr "Nenhuma exceção disponível"
+
+#: ../view/error/index.phtml:1
+msgid "An error occurred"
+msgstr "Ocorreu um erro"
+
+#: ../view/helper/pagination/_partial.phtml:9
+#: ../view/helper/pagination/_partial.phtml:17
+msgid "Prev"
+msgstr ""
+
+#: ../view/helper/pagination/_partial.phtml:37
+#: ../view/helper/pagination/_partial.phtml:45
+msgid "Next"
+msgstr ""
+
+#: ../view/layout/layout.phtml:5
+msgid "Personal Sushi - Administration"
+msgstr ""
+
+#: ../view/layout/layout.phtml:44
+msgid "Settings"
+msgstr ""
+
+#: ../view/layout/layout.phtml:51
+msgid "Account"
+msgstr ""
+
+#: ../view/layout/layout.phtml:63
+msgid "My Account"
+msgstr ""
+
+#: ../view/layout/login.phtml:5
+msgid "Skeleton Application"
+msgstr "Aplicação Skeleton"
+
+#: ../view/layout/login.phtml:40
+msgid "Administrator Login"
+msgstr ""
+
+#~ msgid "Home"
+#~ msgstr "Início"
+
+#~ msgid "All rights reserved."
+#~ msgstr "Todos os direitos reservados."
+
+#~ msgid "Welcome to %sZend Framework 2%s"
+#~ msgstr "Bem vindo ao %sZend Framework 2%s"
+
+#~ msgid ""
+#~ "Congratulations! You have successfully installed the %sZF2 Skeleton "
+#~ "Application%s. You are currently running Zend Framework version %s. This "
+#~ "skeleton can serve as a simple starting point for you to begin building "
+#~ "your application on ZF2."
+#~ msgstr ""
+#~ "Parabéns! Você instalou a %sAplicação Skeleton ZF2%s com sucesso. Você "
+#~ "está usando a versão %s do Zend Framework. Este esqueleto serve "
+#~ "simplesmente como um ponto de inicio na construção da sua aplicação ZF2."
+
+#~ msgid "Fork Zend Framework 2 on GitHub"
+#~ msgstr "Replique Zend Framework 2 no GitHub"
+
+#~ msgid "Follow Development"
+#~ msgstr "Acompanhe o Desenvolvimento"
+
+#~ msgid ""
+#~ "Zend Framework 2 is under active development. If you are interested in "
+#~ "following the development of ZF2, there is a special ZF2 portal on the "
+#~ "official Zend Framework website which provides links to the ZF2 %swiki%s, "
+#~ "%sdev blog%s, %sissue tracker%s, and much more. This is a great resource "
+#~ "for staying up to date with the latest developments!"
+#~ msgstr ""
+#~ "Zend Framework 2 está sob desenvolvimento ativo. Se vocês está "
+#~ "interessado em acompanhar o desenvolvimento do ZF2, tem um portal ZF2 "
+#~ "especial no site oficial do Zend Framework que possui links para ZF2 "
+#~ "%swiki%s, %sdev blog%s, %sissue tracker%s, dentre outros. Este é um "
+#~ "excelente material para se manter atualizado com os últimos "
+#~ "desenvolvimentos!"
+
+#~ msgid "ZF2 Development Portal"
+#~ msgstr "Portal de Desenvolvimento do ZF2"
+
+#~ msgid "Discover Modules"
+#~ msgstr "Descubra Módulos"
+
+#~ msgid ""
+#~ "The community is working on developing a community site to serve as a "
+#~ "repository and gallery for ZF2 modules. The project is available %son "
+#~ "GitHub%s. The site is currently live and currently contains a list of "
+#~ "some of the modules already available for ZF2."
+#~ msgstr ""
+#~ "A Comunidade está trabalhando em desenvolver um site comunitário para "
+#~ "servir como repositório e galeria de módulos ZF2. O projeto estará "
+#~ "disponível %sem breve no GitHub%s. O site já está online e atualmente "
+#~ "contém uma lista de alguns dos módulos já disponíveis para ZF2."
+
+#~ msgid "Explore ZF2 Modules"
+#~ msgstr "Explore Módulos ZF2"
+
+#~ msgid "Help &amp; Support"
+#~ msgstr "Ajuda &amp; Suporte"
+
+#~ msgid ""
+#~ "If you need any help or support while developing with ZF2, you may reach "
+#~ "us via IRC: %s#zftalk on Freenode%s. We'd love to hear any questions or "
+#~ "feedback you may have regarding the beta releases. Alternatively, you may "
+#~ "subscribe and post questions to the %smailing lists%s."
+#~ msgstr ""
+#~ "Caso você precise de ajuda ou suporte enquanto desenvolve com ZF2, pode "
+#~ "nos encontrar pelo %s#zftalk on Freenode%s. Vamos gostar muito de ouvir "
+#~ "perguntas e opiniões que você possa ter em relação às versões beta. "
+#~ "Também, você pode se registrar e enviar perguntar para a %slista de e-mail"
+#~ "%s."
+
+#~ msgid "Ping us on IRC"
+#~ msgstr "Nos escreva no IRC"
+
+#~ msgid "Exception"
+#~ msgstr "Exceção"

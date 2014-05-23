@@ -1,0 +1,37 @@
+<?php
+
+$formLabel = $this->plugin('formLabel');
+
+//Add class to label
+$labelAttributes = array_merge( (array) $this->element->getLabelAttributes(), array('class' => 'checkbox') );
+
+//Add class to input
+//$this->element->setAttribute( 'class', 'iCheck ' . $this->element->getAttribute('class') );
+
+?>
+
+<?php if(!$this->element->getOption('dont_render_wrapper')): ?>
+
+	<div class="element">
+
+		<div class="label">
+			
+		</div>
+
+	    <div class="input">
+
+<?php endif ?>
+
+    	<?= $formLabel->openTag( $labelAttributes ) ?>
+
+    		<?= $this->formElement($this->element) ?>
+
+    	<?= $this->label . $formLabel->closeTag() ?>
+
+<?php if(!$this->element->getOption('dont_render_wrapper')): ?>
+
+	    </div>
+
+	</div>
+
+<?php endif ?>

@@ -1,0 +1,2311 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Personal Sushi\n"
+"POT-Creation-Date: 2014-02-15 17:07-0300\n"
+"PO-Revision-Date: 2014-02-15 17:08-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.3\n"
+"X-Poedit-Basepath: /Storage/Portable/Copy/Projects/FlavioOioli/web-"
+"personalsushi-zf2/module\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-KeywordsList: translate;__\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: Admin/config/module.config.php:362
+msgid "Home"
+msgstr "Home"
+
+#: Admin/config/module.config.php:373 Admin/view/admin/admin/list.phtml:13
+msgid "Admins"
+msgstr "Administradores"
+
+#: Admin/config/module.config.php:383
+msgid "Orders"
+msgstr "Pedidos"
+
+#: Admin/config/module.config.php:394
+#: Application/src/Application/Entity/Order.php:352
+#: Application/src/Application/Entity/Order.php:372
+msgid "Lunch"
+msgstr "Almoço"
+
+#: Admin/config/module.config.php:411
+#: Application/src/Application/Entity/Order.php:356
+#: Application/src/Application/Entity/Order.php:373
+msgid "Dinner"
+msgstr "Jantar"
+
+#: Admin/config/module.config.php:432 Admin/config/module.config.php:517
+#: Admin/view/admin/customer/list.phtml:13
+msgid "Customers"
+msgstr "Clientes"
+
+#: Admin/config/module.config.php:442 Admin/config/module.config.php:462
+#: Admin/config/module.config.php:507 Admin/view/admin/product/list.phtml:13
+msgid "Products"
+msgstr "Produtos"
+
+#: Admin/config/module.config.php:453 Admin/view/admin/category/list.phtml:13
+msgid "Categories"
+msgstr "Categorias"
+
+#: Admin/config/module.config.php:471
+msgid "Nesting"
+msgstr "Organização"
+
+#: Admin/config/module.config.php:485
+#: Admin/view/admin/email-campaign/list.phtml:13
+msgid "Email Campaigns"
+msgstr "Campanhas de Email"
+
+#: Admin/config/module.config.php:495
+msgid "Statistics"
+msgstr "Estatísticas"
+
+#: Admin/config/module.config.php:527
+msgid "Monetary"
+msgstr "Monetário"
+
+#: Admin/src/Admin/Controller/AdminController.php:71
+msgid "Admin successfully added to the database."
+msgstr "Administrador adicionado ao banco de dados com sucesso."
+
+#: Admin/src/Admin/Controller/AdminController.php:82
+msgid ""
+"There was an error adding the admin to the database. Contact the "
+"administrator."
+msgstr ""
+"Houve um erro ao adicionar o administrador ao banco de dados. Contate o "
+"administrador."
+
+#: Admin/src/Admin/Controller/AdminController.php:135
+msgid "Admin successfully saved to the database."
+msgstr "Administrador salvo com sucesso."
+
+#: Admin/src/Admin/Controller/AdminController.php:146
+#: Admin/src/Admin/Controller/AdminController.php:190
+msgid "A admin with this ID was not found in the database."
+msgstr "Um administrador com este ID não foi encontrado no banco de dados."
+
+#: Admin/src/Admin/Controller/AdminController.php:182
+msgid "Admin successfully deleted from the database."
+msgstr "Administrador excluido do banco de dados com sucesso."
+
+#: Admin/src/Admin/Controller/AdminController.php:186
+msgid "You cannot delete yourself."
+msgstr "Você não pode excluir a você mesmo."
+
+#: Admin/src/Admin/Controller/AuthController.php:48
+#: Application/src/Application/Controller/CustomerController.php:59
+msgid "You are logged in!"
+msgstr "Você está logado!"
+
+#: Admin/src/Admin/Controller/AuthController.php:55
+msgid "You are not logged in!"
+msgstr "Você não está logado!"
+
+#: Admin/src/Admin/Controller/CategoryController.php:82
+msgid "Category successfully added to the database."
+msgstr "Categoria adicionada ao banco de dados com sucesso."
+
+#: Admin/src/Admin/Controller/CategoryController.php:93
+msgid ""
+"There was an error adding the category to the database. Contact the "
+"administrator."
+msgstr ""
+"Houve um erro ao adicionar a categoria ao banco de dados. Contate o "
+"administrador."
+
+#: Admin/src/Admin/Controller/CategoryController.php:151
+msgid "Category successfully saved to the database."
+msgstr "Categoria salva com sucesso."
+
+#: Admin/src/Admin/Controller/CategoryController.php:162
+#: Admin/src/Admin/Controller/CategoryController.php:198
+#: Admin/src/Admin/Controller/CategoryController.php:231
+msgid "A category with this ID was not found in the database."
+msgstr "Uma categoria com este ID não foi encontrada no banco de dados."
+
+#: Admin/src/Admin/Controller/CategoryController.php:194
+msgid "Category successfully deleted from the database."
+msgstr "Categoria excluida do banco de dados com sucesso."
+
+#: Admin/src/Admin/Controller/CategoryController.php:227
+msgid "This category's image was successfully cleared."
+msgstr "A imagem desta categoria foi removida."
+
+#: Admin/src/Admin/Controller/CustomerController.php:71
+msgid "Customer successfully added to the database."
+msgstr "Cliente adicionado ao banco de dados com sucesso."
+
+#: Admin/src/Admin/Controller/CustomerController.php:82
+msgid ""
+"There was an error adding the customer to the database. Contact the "
+"administrator."
+msgstr ""
+"Houve um erro ao adicionar o cliente ao banco de dados. Contate o "
+"administrador."
+
+#: Admin/src/Admin/Controller/CustomerController.php:135
+msgid "Customer successfully saved to the database."
+msgstr "Cliente salvo com sucesso."
+
+#: Admin/src/Admin/Controller/CustomerController.php:146
+#: Admin/src/Admin/Controller/CustomerController.php:182
+#: Admin/src/Admin/Controller/PhoneNumberController.php:75
+#: Admin/src/Admin/Controller/StreetAddressController.php:75
+msgid "A customer with this ID was not found in the database."
+msgstr "Um cliente com este ID não foi encontrado no banco de dados."
+
+#: Admin/src/Admin/Controller/CustomerController.php:178
+msgid "Customer successfully deleted from the database."
+msgstr "Cliente excluido do banco de dados com sucesso."
+
+#: Admin/src/Admin/Controller/EmailCampaignController.php:30
+msgid ""
+"It appears that email campaign cronjob is not installed in your system. "
+"Contact the administrator to install the following cronjob: \"* * * * * /"
+"path/to/php /path/to/index.php admin email-campaign dispatch-step <step-size>"
+"\""
+msgstr ""
+"Parece que a cronjob das campanhas de email não está instalada no seu "
+"sistema. Contate o administrador para instalar a seguinte cronjob: \"* * * * "
+"* /path/to/php /path/to/index.php admin email-campaign dispatch-step <step-"
+"size>\""
+
+#: Admin/src/Admin/Controller/EmailCampaignController.php:99
+msgid "Email campaign successfully added to the database."
+msgstr "Campanha de email adicionada ao banco de dados com sucesso."
+
+#: Admin/src/Admin/Controller/EmailCampaignController.php:106
+msgid ""
+"There was an error adding the email campaign to the database. Contact the "
+"administrator."
+msgstr ""
+"Houve um erro ao adicionar a campanha de email ao banco de dados. Contate o "
+"administrador."
+
+#: Admin/src/Admin/Controller/EmailCampaignController.php:161
+msgid "Email campaign successfully saved to the database."
+msgstr "Campanha de email salva com sucesso."
+
+#: Admin/src/Admin/Controller/EmailCampaignController.php:171
+#: Admin/src/Admin/Controller/EmailCampaignController.php:209
+#: Admin/src/Admin/Controller/EmailCampaignController.php:256
+#: Admin/src/Admin/Controller/EmailCampaignController.php:286
+#: Admin/src/Admin/Controller/EmailCampaignController.php:332
+msgid "A email campaign with this ID was not found in the database."
+msgstr ""
+"Uma campanha de email com este ID não foi encontrada no banco de dados."
+
+#: Admin/src/Admin/Controller/EmailCampaignController.php:205
+msgid "Email campaign successfully deleted from the database."
+msgstr "Campanha de email excluida do banco de dados com sucesso."
+
+#: Admin/src/Admin/Controller/EmailCampaignController.php:282
+msgid "Logs cleaned successfully."
+msgstr "Logs limpos com sucesso."
+
+#: Admin/src/Admin/Controller/EmailCampaignController.php:316
+#, php-format
+msgid "Email campaign %s is being dispatched now."
+msgstr "A campanha de email %s está sendo disparada agora."
+
+#: Admin/src/Admin/Controller/EmailCampaignController.php:318
+msgid "There was a problem dispatching email campaign "
+msgstr "Houve um problema ao disparar a campanha de email"
+
+#: Admin/src/Admin/Controller/EmailCampaignController.php:324
+#, php-format
+msgid "Could not dispatch email campaign %s. It is already being dispatched."
+msgstr ""
+"Não foi possível disparar a campanha de email %s. Ela já está sendo "
+"disparada."
+
+#: Admin/src/Admin/Controller/EmailCampaignController.php:361
+msgid "The email campaign dispatch has been aborted."
+msgstr "O disparo da campanha de email foi interrompida."
+
+#: Admin/src/Admin/Controller/EmailCampaignController.php:367
+msgid ""
+"A email campaign dispatch object with this ID was not found in the database."
+msgstr ""
+"Um disparo de campanha de email com este ID não foi encontrado no banco de "
+"dados."
+
+#: Admin/src/Admin/Controller/OrderController.php:52
+#: Admin/view/admin/order/print.phtml:44
+msgid "SS, NN, CC - ZZ - RR"
+msgstr "SS, NN, CC - ZZ - RR"
+
+#: Admin/src/Admin/Controller/OrderController.php:52
+#: Application/src/Application/Form/Shop/FinishOrder.php:32
+msgid "Pick up on site"
+msgstr "Retirar no local"
+
+#: Admin/src/Admin/Controller/OrderController.php:78
+#: Admin/src/Admin/Controller/OrderController.php:102
+#: Admin/src/Admin/Controller/OrderController.php:248
+#: Admin/view/admin/order/list.phtml:42 Admin/view/admin/order/print.phtml:34
+#: Application/view/application/customer/track-order.phtml:32
+msgid "H:i"
+msgstr "H:i"
+
+#: Admin/src/Admin/Controller/OrderController.php:89
+#: Admin/view/admin/order/print.phtml:15
+msgid "+CC (AC) N"
+msgstr "(AC) N"
+
+#: Admin/src/Admin/Controller/OrderController.php:96
+#: Admin/view/admin/order/list.phtml:40 Admin/view/admin/order/print.phtml:2
+#: Application/view/application/customer/track-order.phtml:11
+#: Application/view/application/shop/success.phtml:13
+#, php-format
+msgid "P%s"
+msgstr "P%s"
+
+#: Admin/src/Admin/Controller/OrderController.php:98
+#: Admin/src/Admin/Controller/OrderController.php:99
+#: Admin/src/Admin/Controller/OrderController.php:101
+#: Admin/src/Admin/Controller/OrderController.php:223
+#: Admin/src/Admin/Controller/OrderController.php:542
+#: Application/src/Application/Form/Shop/FinishOrder.php:41
+#: Admin/view/admin/order/print.phtml:23 Admin/view/admin/order/print.phtml:25
+#: Admin/view/admin/order/print.phtml:27 Admin/view/admin/order/print.phtml:29
+#: Admin/view/admin/order/print.phtml:59
+#: Application/view/application/menu/index.phtml:95
+#: Application/view/application/shop/cart.phtml:46
+#: Application/view/application/shop/cart.phtml:360
+#: Application/view/application/shop/finish.phtml:88
+#: Application/view/application/shop/finish.phtml:161
+msgid "USD"
+msgstr "BRL"
+
+#: Admin/src/Admin/Controller/OrderController.php:103
+#: Admin/src/Admin/Controller/OrderController.php:104
+#: Admin/src/Admin/Controller/OrderController.php:105
+#: Admin/src/Admin/Controller/OrderController.php:106
+msgid "H:i:s"
+msgstr "H:i:s"
+
+#: Admin/src/Admin/Controller/OrderController.php:103
+#: Admin/src/Admin/Controller/OrderController.php:104
+#: Admin/src/Admin/Controller/OrderController.php:105
+#: Admin/src/Admin/Controller/OrderController.php:106
+#: Admin/src/Admin/Controller/OrderController.php:110
+#: Admin/src/Admin/Controller/OrderController.php:114
+#: Admin/view/admin/order/list.phtml:345 Admin/view/admin/order/list.phtml:378
+#: Admin/view/admin/order/list.phtml:408
+#: Admin/view/admin/product/list.phtml:32
+msgid "None"
+msgstr "Nenhum"
+
+#: Admin/src/Admin/Controller/OrderController.php:109
+#: Admin/src/Admin/Controller/OrderController.php:113
+msgid "%hh, %i min and %ss"
+msgstr "%hh, %i min e %ss"
+
+#: Admin/src/Admin/Controller/OrderController.php:314
+msgid "Order successfully deleted from the database."
+msgstr "Pedido excluido com sucesso do banco de dados."
+
+#: Admin/src/Admin/Controller/OrderController.php:319
+#: Admin/src/Admin/Controller/OrderController.php:339
+#: Admin/src/Admin/Controller/OrderController.php:472
+msgid "An order with this ID was not found in the database."
+msgstr "Um pedido com este ID não foi encontrado no banco de dados."
+
+#: Admin/src/Admin/Controller/OrderController.php:455
+msgid "Order marked as paid."
+msgstr "Pedido marcado como \"pago\"."
+
+#: Admin/src/Admin/Controller/OrderController.php:457
+msgid "Order marked as unpaid."
+msgstr "Pedido marcado como \"não pago\"."
+
+#: Admin/src/Admin/Controller/OrderController.php:468
+msgid ""
+"The order you refer is unapproved. Only approved orders can be marked as "
+"paid."
+msgstr ""
+"O pedido em questão ainda não foi aprovado. Somente pedidos aprovados podem "
+"ser marcados como \"pagos\"."
+
+#: Admin/src/Admin/Controller/OrderController.php:498
+msgid "No period specified for counting money in the till."
+msgstr "Nenhum período foi especificado ao fechar o caixa."
+
+#: Admin/src/Admin/Controller/OrderController.php:556
+msgid "There are currently no active orders in this period."
+msgstr "Não há pedidos ativos para este período."
+
+#: Admin/src/Admin/Controller/PhoneNumberController.php:56
+msgid "Phone number successfully added to the database."
+msgstr "Número de telefone adicionado com sucesso ao banco de dados."
+
+#: Admin/src/Admin/Controller/PhoneNumberController.php:63
+#: Application/src/Application/Controller/CustomerController.php:388
+msgid ""
+"There was an error adding the phone number to the database. Contact the "
+"administrator."
+msgstr ""
+"Houve um erro ao adicionar o número de telefone ao banco de dados. Contate o "
+"administrador."
+
+#: Admin/src/Admin/Controller/PhoneNumberController.php:119
+msgid "Phone number successfully saved to the database."
+msgstr "Número de telefone salvo com sucesso."
+
+#: Admin/src/Admin/Controller/PhoneNumberController.php:130
+#: Admin/src/Admin/Controller/PhoneNumberController.php:171
+#: Application/src/Application/Controller/CustomerController.php:445
+#: Application/src/Application/Controller/CustomerController.php:481
+msgid "A phone number with this ID was not found in the database."
+msgstr ""
+"Um número de telefone com este ID não foi encontrado no banco de dados."
+
+#: Admin/src/Admin/Controller/PhoneNumberController.php:164
+msgid "Phone number successfully deleted from the database."
+msgstr "Número de telefone excluido do banco de dados com sucesso."
+
+#: Admin/src/Admin/Controller/ProductController.php:82
+msgid "Product successfully added to the database."
+msgstr "Produto adicionado ao banco de dados com sucesso."
+
+#: Admin/src/Admin/Controller/ProductController.php:94
+msgid ""
+"There was an error adding the product to the database. Contact the "
+"administrator."
+msgstr ""
+"Houve um erro ao adicionar o produto ao banco de dados. Contate o "
+"administrador."
+
+#: Admin/src/Admin/Controller/ProductController.php:153
+msgid "Product successfully saved to the database."
+msgstr "Produto salvo com sucesso."
+
+#: Admin/src/Admin/Controller/ProductController.php:164
+#: Admin/src/Admin/Controller/ProductController.php:200
+msgid "A product with this ID was not found in the database."
+msgstr "Um produto com este ID não foi encontrado no banco de dados."
+
+#: Admin/src/Admin/Controller/ProductController.php:196
+msgid "Product successfully deleted from the database."
+msgstr "Produto excluido do banco de dados com sucesso."
+
+#: Admin/src/Admin/Controller/ProductController.php:217
+msgid "Saved successfully."
+msgstr "Salvo com sucesso."
+
+#: Admin/src/Admin/Controller/ProductController.php:245
+msgid "This nesting is invalid. The maximum nesting level for categories is 2."
+msgstr ""
+"Esta organização está inválida. O aninhamento máximo para as categorias é de "
+"2 níveis (categorias e sub-categorias)."
+
+#: Admin/src/Admin/Controller/StreetAddressController.php:56
+msgid "Street address successfully added to the database."
+msgstr "Endereço adicionado com sucesso ao banco de dados."
+
+#: Admin/src/Admin/Controller/StreetAddressController.php:63
+#: Application/src/Application/Controller/CustomerController.php:258
+msgid ""
+"There was an error adding the street address to the database. Contact the "
+"administrator."
+msgstr ""
+"Houve um erro ao adicionar o endereço ao banco de dados. Contate o "
+"administrador."
+
+#: Admin/src/Admin/Controller/StreetAddressController.php:119
+msgid "Street address successfully saved to the database."
+msgstr "Endereço salvo com sucesso."
+
+#: Admin/src/Admin/Controller/StreetAddressController.php:130
+#: Admin/src/Admin/Controller/StreetAddressController.php:171
+#: Application/src/Application/Controller/CustomerController.php:313
+#: Application/src/Application/Controller/CustomerController.php:349
+msgid "A street address with this ID was not found in the database."
+msgstr "Um endereço com este ID não foi encontrado no banco de dados."
+
+#: Admin/src/Admin/Controller/StreetAddressController.php:164
+msgid "Street address successfully deleted from the database."
+msgstr "Endereço excluido do banco de dados com sucesso."
+
+#: Admin/src/Admin/Form/Admin/Base.php:38
+msgid "First Name"
+msgstr "Primeiro Nome"
+
+#: Admin/src/Admin/Form/Admin/Base.php:60
+msgid "Last Name"
+msgstr "Último Nome"
+
+#: Admin/src/Admin/Form/Admin/Base.php:82
+#: Admin/src/Admin/Form/Auth/Login.php:38
+#: Admin/src/Admin/Form/Customer/Base.php:60
+#: Application/src/Application/Form/Customer/Login.php:37
+#: Application/src/Application/Form/Customer/PersonalInfo.php:67
+#: Application/src/Application/Form/Customer/Register.php:59
+msgid "Email"
+msgstr "Email"
+
+#: Admin/src/Admin/Form/Admin/Base.php:104
+#: Admin/src/Admin/Form/Auth/Login.php:54
+#: Admin/src/Admin/Form/Customer/Base.php:82
+#: Application/src/Application/Form/Customer/Login.php:59
+#: Application/src/Application/Form/Customer/PersonalInfo.php:89
+#: Application/src/Application/Form/Customer/Register.php:81
+#: Admin/view/admin/auth/login.phtml:22
+msgid "Password"
+msgstr "Senha"
+
+#: Admin/src/Admin/Form/Category/Add.php:51
+#: Admin/src/Admin/Form/Category/Edit.php:50
+msgid "This name is already being used by another category."
+msgstr "Este nome já está sendo utilizado por outra categoria."
+
+#: Admin/src/Admin/Form/Category/Base.php:47
+#: Admin/src/Admin/Form/Customer/Base.php:38
+#: Admin/src/Admin/Form/EmailCampaign/Base.php:38
+#: Application/src/Application/Form/Customer/PersonalInfo.php:45
+#: Application/src/Application/Form/Customer/Register.php:37
+msgid "Name"
+msgstr "Nome"
+
+#: Admin/src/Admin/Form/Category/Base.php:69
+#: Admin/src/Admin/Form/Product/Base.php:38
+msgid "Label"
+msgstr "Etiqueta"
+
+#: Admin/src/Admin/Form/Category/Base.php:91
+#: Admin/src/Admin/Form/Product/Base.php:82
+#: Application/src/Application/Controller/ShopController.php:250
+msgid "Description"
+msgstr "Descrição"
+
+#: Admin/src/Admin/Form/Category/Base.php:114
+#: Admin/src/Admin/Form/Product/Base.php:105
+msgid "Image"
+msgstr "Imagem"
+
+#: Admin/src/Admin/Form/Category/Base.php:129
+#: Admin/src/Admin/Form/Customer/Base.php:104
+#: Admin/src/Admin/Form/Product/Base.php:143
+#: Application/src/Application/Entity/CampaignDispatch.php:203
+msgid "Active"
+msgstr "Ativo"
+
+#: Admin/src/Admin/Form/Customer/Base.php:120
+msgid "Receive Newsletter"
+msgstr "Receber Novidades"
+
+#: Admin/src/Admin/Form/Customer/Base.php:136
+msgid "Is Debugger"
+msgstr "É Debugger"
+
+#: Admin/src/Admin/Form/EmailCampaign/Base.php:60
+msgid "Subject"
+msgstr "Assunto"
+
+#: Admin/src/Admin/Form/EmailCampaign/Base.php:98
+msgid "Content"
+msgstr "Conteúdo"
+
+#: Admin/src/Admin/Form/PhoneNumber/Base.php:38
+msgid "Country Code"
+msgstr "Código do País"
+
+#: Admin/src/Admin/Form/PhoneNumber/Base.php:60
+#: Application/src/Application/Form/Customer/PhoneNumber/Base.php:38
+msgid "Area Code"
+msgstr "Código de Área"
+
+#: Admin/src/Admin/Form/PhoneNumber/Base.php:82
+#: Admin/src/Admin/Form/StreetAddress/Base.php:60
+#: Application/src/Application/Form/Customer/Register.php:229
+#: Application/src/Application/Form/Customer/PhoneNumber/Base.php:60
+#: Application/src/Application/Form/Customer/StreetAddress/Base.php:60
+msgid "Number"
+msgstr "Número"
+
+#: Admin/src/Admin/Form/PhoneNumber/Base.php:104
+#: Application/src/Application/Form/Customer/PhoneNumber/Base.php:82
+msgid "Is Mobile"
+msgstr "É Móvel"
+
+#: Admin/src/Admin/Form/Product/Base.php:60
+msgid "Extended Label"
+msgstr "Etiqueta Completa"
+
+#: Admin/src/Admin/Form/Product/Base.php:120
+#: Admin/view/admin/order/list.phtml:152 Admin/view/admin/order/print.phtml:19
+#: Application/view/application/shop/cart.phtml:24
+#: Application/view/application/shop/finish.phtml:66
+msgid "Price"
+msgstr "Preço"
+
+#: Admin/src/Admin/Form/Product/Base.php:121
+#: Application/src/Application/Form/Shop/FinishOrder.php:136
+#: Application/src/Application/Form/Shop/FinishOrder.php:166
+msgid "en_US"
+msgstr "pt_BR"
+
+#: Admin/src/Admin/Form/StreetAddress/Base.php:38
+#: Application/src/Application/Form/Customer/Register.php:207
+#: Application/src/Application/Form/Customer/StreetAddress/Base.php:38
+msgid "Street"
+msgstr "Logradouro"
+
+#: Admin/src/Admin/Form/StreetAddress/Base.php:82
+#: Application/src/Application/Form/Customer/Register.php:251
+#: Application/src/Application/Form/Customer/StreetAddress/Base.php:82
+msgid "Complement"
+msgstr "Complemento"
+
+#: Admin/src/Admin/Form/StreetAddress/Base.php:97
+#: Application/src/Application/Form/Customer/Register.php:266
+#: Application/src/Application/Form/Customer/StreetAddress/Base.php:97
+msgid "Neighborhood"
+msgstr "Bairro"
+
+#: Admin/src/Admin/Form/StreetAddress/Base.php:123
+#: Application/src/Application/Form/Customer/Register.php:292
+#: Application/src/Application/Form/Customer/StreetAddress/Base.php:123
+msgid "Zipcode"
+msgstr "CEP"
+
+#: Admin/src/Admin/Form/StreetAddress/Base.php:145
+#: Application/src/Application/Form/Customer/Register.php:314
+#: Application/src/Application/Form/Customer/StreetAddress/Base.php:145
+msgid "Reference"
+msgstr "Referência"
+
+#: Application/config/module.config.php:400
+#: Application/view/application/index/about-us.phtml:5
+msgid "About Us"
+msgstr "Sobre Nós"
+
+#: Application/config/module.config.php:408
+#: Application/view/application/menu/index.phtml:7
+msgid "Menu"
+msgstr "Menu"
+
+#: Application/config/module.config.php:416
+msgid "Cart"
+msgstr "Carrinho"
+
+#: Application/config/module.config.php:426
+#: Application/view/application/customer/register.phtml:44
+msgid "Register"
+msgstr "Cadastrar"
+
+#: Application/config/module.config.php:436
+msgid "Login/Account"
+msgstr "Login/Conta"
+
+#: Application/config/module.config.php:447
+msgid "Contact"
+msgstr "Contato"
+
+#: Application/src/Application/Controller/CustomerController.php:68
+msgid "The email and password you provided seems to be incorrect."
+msgstr "O email e a senha que você digitou parecem incorretos."
+
+#: Application/src/Application/Controller/CustomerController.php:92
+msgid "You logged out successfully."
+msgstr "Você saiu da sua conta."
+
+#: Application/src/Application/Controller/CustomerController.php:122
+msgid "Registration successful. You may now login to your account."
+msgstr "Cadastro feito com sucesso! Você já pode entrar em sua conta."
+
+#: Application/src/Application/Controller/CustomerController.php:130
+msgid "There was an error in the registration. Contact the administrator."
+msgstr "Houve um erro ao efetuar o cadastro. Contate o administrador."
+
+#: Application/src/Application/Controller/CustomerController.php:138
+#: Application/src/Application/Controller/CustomerController.php:194
+#: Application/src/Application/Controller/CustomerController.php:392
+#: Application/src/Application/Controller/ShopController.php:385
+msgid ""
+"Some of the data you provided appears to be invalid. Please correct them and "
+"try again."
+msgstr ""
+"Algumas das informações que você digitou parecem ser inválidas. Por favor, "
+"corrija-as e tente novamente."
+
+#: Application/src/Application/Controller/CustomerController.php:189
+msgid "Your personal information was successfully saved."
+msgstr "Suas informações pessoais foram salvas com sucesso."
+
+#: Application/src/Application/Controller/CustomerController.php:252
+msgid "Street address successfully added to your account."
+msgstr "Endereço adicionado à sua conta com sucesso."
+
+#: Application/src/Application/Controller/CustomerController.php:302
+msgid "Street address modifications were saved successfully."
+msgstr "As modificações do endereço foram salvas com sucesso."
+
+#: Application/src/Application/Controller/CustomerController.php:345
+msgid "Street address successfully removed from your account."
+msgstr "O endereço foi excluido da sua conta com sucesso."
+
+#: Application/src/Application/Controller/CustomerController.php:382
+msgid "Phone number successfully added to your account."
+msgstr "Número de telefone adicionado à sua conta com sucesso."
+
+#: Application/src/Application/Controller/CustomerController.php:434
+msgid "Phone number modifications were saved successfully."
+msgstr "As modificações do número de telefone foram salvas com sucesso."
+
+#: Application/src/Application/Controller/CustomerController.php:477
+msgid "Phone number successfully removed from your account."
+msgstr "O número de telefone foi excluido da sua conta com sucesso."
+
+#: Application/src/Application/Controller/MenuController.php:35
+msgid "A category with this name was not found."
+msgstr "Uma categoria com este nome não foi encontrada no banco de dados."
+
+#: Application/src/Application/Controller/ShopController.php:39
+msgid "Product added to your cart."
+msgstr "Produto adicionado ao seu carrinho."
+
+#: Application/src/Application/Controller/ShopController.php:48
+msgid "A product with the requested ID was not found."
+msgstr "Um produto com este ID não foi encontrado no banco de dados."
+
+#: Application/src/Application/Controller/ShopController.php:67
+#: Application/src/Application/Controller/ShopController.php:125
+#: Application/src/Application/Mvc/Controller/Plugin/ApplicationCart.php:82
+msgid "Salmon"
+msgstr "Salmão"
+
+#: Application/src/Application/Controller/ShopController.php:68
+#: Application/src/Application/Controller/ShopController.php:126
+#: Application/src/Application/Mvc/Controller/Plugin/ApplicationCart.php:83
+msgid "Whitefish"
+msgstr "Peixe Branco"
+
+#: Application/src/Application/Controller/ShopController.php:69
+#: Application/src/Application/Controller/ShopController.php:127
+#: Application/src/Application/Mvc/Controller/Plugin/ApplicationCart.php:84
+msgid "Tunny"
+msgstr "Atum"
+
+#: Application/src/Application/Controller/ShopController.php:70
+#: Application/src/Application/Controller/ShopController.php:128
+#: Application/src/Application/Mvc/Controller/Plugin/ApplicationCart.php:85
+msgid "Octopus"
+msgstr "Polvo"
+
+#: Application/src/Application/Controller/ShopController.php:71
+#: Application/src/Application/Controller/ShopController.php:129
+#: Application/src/Application/Mvc/Controller/Plugin/ApplicationCart.php:86
+msgid "Shrimp"
+msgstr "Camarão"
+
+#: Application/src/Application/Controller/ShopController.php:78
+#: Application/src/Application/Controller/ShopController.php:136
+#: Application/src/Application/Mvc/Controller/Plugin/ApplicationCart.php:93
+msgid "Djo"
+msgstr "Djo"
+
+#: Application/src/Application/Controller/ShopController.php:79
+#: Application/src/Application/Controller/ShopController.php:137
+#: Application/src/Application/Mvc/Controller/Plugin/ApplicationCart.php:94
+msgid "Gunkan"
+msgstr "Gunkan"
+
+#: Application/src/Application/Controller/ShopController.php:80
+#: Application/src/Application/Controller/ShopController.php:138
+#: Application/src/Application/Mvc/Controller/Plugin/ApplicationCart.php:95
+msgid "Acelgamaki"
+msgstr "Acelgamaki"
+
+#: Application/src/Application/Controller/ShopController.php:87
+#: Application/src/Application/Controller/ShopController.php:145
+#: Application/src/Application/Mvc/Controller/Plugin/ApplicationCart.php:102
+msgid "Pure"
+msgstr "Puro"
+
+#: Application/src/Application/Controller/ShopController.php:88
+#: Application/src/Application/Controller/ShopController.php:146
+#: Application/src/Application/Mvc/Controller/Plugin/ApplicationCart.php:103
+msgid "Cream Cheese"
+msgstr "Cream Cheese"
+
+#: Application/src/Application/Controller/ShopController.php:89
+#: Application/src/Application/Controller/ShopController.php:147
+#: Application/src/Application/Mvc/Controller/Plugin/ApplicationCart.php:104
+msgid "Mayonnaise"
+msgstr "Maionese"
+
+#: Application/src/Application/Controller/ShopController.php:114
+msgid "The cart was updated."
+msgstr "O carrinho foi atualizado."
+
+#: Application/src/Application/Controller/ShopController.php:181
+#, php-format
+msgid "Sashimi - %s"
+msgstr "Sashimi - %s"
+
+#: Application/src/Application/Controller/ShopController.php:197
+#, php-format
+msgid "Niguiri - %s"
+msgstr "Niguiri - %s"
+
+#: Application/src/Application/Controller/ShopController.php:242
+#, php-format
+msgid "Your set \"%s\" exceed the maximum item count."
+msgstr "Seu combinado \"%s\" excede o número máximo de itens."
+
+#: Application/src/Application/Controller/ShopController.php:256
+#: Application/view/application/shop/cart.phtml:245
+msgid "Type"
+msgstr "Tipo"
+
+#: Application/src/Application/Controller/ShopController.php:257
+#: Application/view/application/shop/cart.phtml:263
+msgid "Shive"
+msgstr "Cebolinha"
+
+#: Application/src/Application/Controller/ShopController.php:257
+#: Admin/view/admin/admin/list.phtml:47
+#: Admin/view/admin/category/list.phtml:33
+#: Admin/view/admin/category/list.phtml:48
+#: Admin/view/admin/customer/edit.phtml:104
+#: Admin/view/admin/customer/edit.phtml:168
+#: Admin/view/admin/customer/list.phtml:35
+#: Admin/view/admin/customer/list.phtml:50
+#: Admin/view/admin/email-campaign/edit.phtml:129
+#: Admin/view/admin/email-campaign/edit.phtml:145
+#: Admin/view/admin/email-campaign/list.phtml:65
+#: Admin/view/admin/email-campaign/list.phtml:85
+#: Admin/view/admin/order/list.phtml:45 Admin/view/admin/order/list.phtml:51
+#: Admin/view/admin/order/list.phtml:73 Admin/view/admin/order/list.phtml:99
+#: Admin/view/admin/order/list.phtml:311 Admin/view/admin/order/list.phtml:487
+#: Admin/view/admin/order/list.phtml:501 Admin/view/admin/order/list.phtml:654
+#: Admin/view/admin/order/print.phtml:73 Admin/view/admin/order/print.phtml:78
+#: Admin/view/admin/order/print.phtml:83
+#: Admin/view/admin/product/list.phtml:35
+#: Admin/view/admin/product/list.phtml:50
+#: Application/view/application/customer/edit-addresses-phones.phtml:44
+#: Application/view/application/customer/edit-addresses-phones.phtml:87
+msgid "Yes"
+msgstr "Sim"
+
+#: Application/src/Application/Controller/ShopController.php:257
+#: Admin/view/admin/admin/list.phtml:48
+#: Admin/view/admin/category/list.phtml:33
+#: Admin/view/admin/category/list.phtml:49
+#: Admin/view/admin/customer/edit.phtml:105
+#: Admin/view/admin/customer/edit.phtml:169
+#: Admin/view/admin/customer/list.phtml:35
+#: Admin/view/admin/customer/list.phtml:51
+#: Admin/view/admin/email-campaign/edit.phtml:130
+#: Admin/view/admin/email-campaign/edit.phtml:146
+#: Admin/view/admin/email-campaign/list.phtml:66
+#: Admin/view/admin/email-campaign/list.phtml:86
+#: Admin/view/admin/order/list.phtml:45 Admin/view/admin/order/list.phtml:51
+#: Admin/view/admin/order/list.phtml:74 Admin/view/admin/order/list.phtml:100
+#: Admin/view/admin/order/list.phtml:311 Admin/view/admin/order/list.phtml:493
+#: Admin/view/admin/order/list.phtml:507 Admin/view/admin/order/list.phtml:655
+#: Admin/view/admin/order/print.phtml:73 Admin/view/admin/order/print.phtml:78
+#: Admin/view/admin/order/print.phtml:83
+#: Admin/view/admin/product/list.phtml:35
+#: Admin/view/admin/product/list.phtml:51
+#: Application/view/application/customer/edit-addresses-phones.phtml:45
+#: Application/view/application/customer/edit-addresses-phones.phtml:88
+msgid "No"
+msgstr "Não"
+
+#: Application/src/Application/Controller/ShopController.php:300
+#, php-format
+msgid "Your product \"%s\" exceeds the option quantity."
+msgstr "Seu produto \"%s\" excede a quantidade máxima da opção."
+
+#: Application/src/Application/Controller/ShopController.php:331
+msgid "Your cart is now empty."
+msgstr "Seu carrinho está vazio."
+
+#: Application/src/Application/Controller/ShopController.php:345
+#: Application/view/application/shop/cart.phtml:394
+msgid "Your cart is empty."
+msgstr "Seu carrinho está vazio."
+
+#: Application/src/Application/Controller/ShopController.php:355
+msgid ""
+"You have not registered an address in your account. Please register an "
+"address before finishing an order."
+msgstr ""
+"Você ainda não registrou um endereço à sua conta. Por favor, registre um "
+"endereço antes de finalizar um pedido."
+
+#: Application/src/Application/Controller/ShopController.php:414
+msgid "You have no orders yet."
+msgstr "Você ainda não efetuou pedidos."
+
+#: Application/src/Application/Entity/CampaignDispatch.php:207
+msgid "Finished"
+msgstr "Finalizado"
+
+#: Application/src/Application/Entity/CampaignDispatch.php:211
+msgid "Aborted"
+msgstr "Interrompido"
+
+#: Application/src/Application/Entity/Order.php:476
+#: Application/src/Application/Entity/Order.php:500
+msgid "Cash"
+msgstr "Dinheiro"
+
+#: Application/src/Application/Entity/Order.php:480
+#: Application/src/Application/Entity/Order.php:501
+msgid "Card"
+msgstr "Cartão"
+
+#: Application/src/Application/Entity/Order.php:484
+#: Application/src/Application/Entity/Order.php:502
+msgid "Voucher"
+msgstr "Alelo/Sodexo"
+
+#: Application/src/Application/Entity/OrderStatus.php:119
+#: Application/src/Application/Entity/OrderStatus.php:151
+#: Application/src/Application/Entity/OrderStatus.php:174
+msgid "Queued"
+msgstr "Aguardando Produção"
+
+#: Application/src/Application/Entity/OrderStatus.php:123
+#: Application/src/Application/Entity/OrderStatus.php:152
+#: Application/src/Application/Entity/OrderStatus.php:175
+msgid "Cooking"
+msgstr "Em Produção"
+
+#: Application/src/Application/Entity/OrderStatus.php:127
+#: Application/src/Application/Entity/OrderStatus.php:153
+#: Application/src/Application/Entity/OrderStatus.php:176
+msgid "Awaiting Shipment"
+msgstr "Em Expedição"
+
+#: Application/src/Application/Entity/OrderStatus.php:131
+#: Application/src/Application/Entity/OrderStatus.php:154
+#: Application/src/Application/Entity/OrderStatus.php:177
+msgid "Shipped"
+msgstr "Saiu para Entrega"
+
+#: Application/src/Application/Entity/OrderStatus.php:135
+#: Application/src/Application/Entity/OrderStatus.php:155
+#: Application/src/Application/Entity/OrderStatus.php:178
+msgid "Received"
+msgstr "Entregue"
+
+#: Application/src/Application/Form/Customer/PersonalInfo.php:104
+#: Application/src/Application/Form/Customer/Register.php:103
+msgid "Repeat Password"
+msgstr "Repetir Senha"
+
+#: Application/src/Application/Form/Customer/PersonalInfo.php:119
+msgid "Receive Promotional Emails"
+msgstr "Receber Emails Promocionais"
+
+#: Application/src/Application/Form/Customer/PersonalInfo.php:173
+#: Application/src/Application/Form/Customer/Register.php:366
+msgid "This email address is already being used by another customer."
+msgstr "Este endereço de email já está sendo utilizado por outro cliente."
+
+#: Application/src/Application/Form/Customer/PersonalInfo.php:214
+#: Application/src/Application/Form/Customer/Register.php:399
+msgid "The two given passwords do not match."
+msgstr "As duas senhas não conferem."
+
+#: Application/src/Application/Form/Customer/PhonesAddresses.php:31
+msgid "(AC) N"
+msgstr "(AC) N"
+
+#: Application/src/Application/Form/Customer/PhonesAddresses.php:35
+msgid "SS, NN - CC"
+msgstr "SS, NN - CC"
+
+#: Application/src/Application/Form/Customer/Register.php:125
+#: Application/src/Application/Form/Customer/Register.php:148
+msgid "Mobile Phone"
+msgstr "Telefone Móvel"
+
+#: Application/src/Application/Form/Customer/Register.php:170
+#: Application/src/Application/Form/Customer/Register.php:192
+msgid "Phone"
+msgstr "Telefone"
+
+#: Application/src/Application/Form/Shop/FinishOrder.php:42
+msgid "SS, NN - CC (__SHIPPING_PRICE__)"
+msgstr "SS, NN - CC (__SHIPPING_PRICE__)"
+
+#: Application/src/Application/Form/Shop/FinishOrder.php:123
+msgid "How many chopsticks?"
+msgstr "Quantos hashis?"
+
+#: Application/src/Application/Form/Shop/FinishOrder.php:153
+msgid "Need change?"
+msgstr "Precisa de troco?"
+
+#: Application/src/Application/Form/Shop/FinishOrder.php:184
+msgid "Do you need soy sauce?"
+msgstr "Precisa de shoyu?"
+
+#: Application/src/Application/Form/Shop/FinishOrder.php:200
+msgid "Do you need wasabi?"
+msgstr "Precisa de wasabi?"
+
+#: Application/src/Application/Form/Shop/FinishOrder.php:216
+msgid "Do you need gari?"
+msgstr "Precisa de gengibre?"
+
+#: Application/src/Application/Form/Shop/FinishOrder.php:232
+msgid "Type any additional notes you want to include in your order"
+msgstr ""
+"Digite quaisquer informações adicionais que você queira incluir em seu pedido"
+
+#: Admin/view/admin/admin/add.phtml:8 Admin/view/admin/admin/edit.phtml:8
+msgid "Admin"
+msgstr "Administrador"
+
+#: Admin/view/admin/admin/add.phtml:8 Admin/view/admin/admin/list.phtml:62
+#: Admin/view/admin/category/add.phtml:8
+#: Admin/view/admin/category/list.phtml:61
+#: Admin/view/admin/customer/add.phtml:8
+#: Admin/view/admin/customer/list.phtml:63
+#: Admin/view/admin/email-campaign/add.phtml:8
+#: Admin/view/admin/email-campaign/list.phtml:103
+#: Admin/view/admin/phone-number/add.phtml:8
+#: Admin/view/admin/product/add.phtml:8 Admin/view/admin/product/list.phtml:63
+#: Admin/view/admin/street-address/add.phtml:8
+#: Application/view/application/customer/add-address.phtml:21
+#: Application/view/application/customer/add-phone.phtml:18
+#: Application/view/application/customer/edit-addresses-phones.phtml:34
+#: Application/view/application/customer/edit-addresses-phones.phtml:77
+msgid "Add"
+msgstr "Adicionar"
+
+#: Admin/view/admin/admin/add.phtml:24 Admin/view/admin/admin/edit.phtml:24
+#: Admin/view/admin/category/add.phtml:24
+#: Admin/view/admin/category/edit.phtml:24
+#: Admin/view/admin/customer/add.phtml:24
+#: Admin/view/admin/customer/edit.phtml:24
+#: Admin/view/admin/email-campaign/add.phtml:24
+#: Admin/view/admin/email-campaign/edit.phtml:24
+#: Admin/view/admin/phone-number/add.phtml:25
+#: Admin/view/admin/phone-number/edit.phtml:25
+#: Admin/view/admin/product/add.phtml:24
+#: Admin/view/admin/product/edit.phtml:24
+#: Admin/view/admin/street-address/add.phtml:25
+#: Admin/view/admin/street-address/edit.phtml:25
+msgid "Basic Information"
+msgstr "Informações Básicas"
+
+#: Admin/view/admin/admin/add.phtml:37 Admin/view/admin/admin/edit.phtml:37
+#: Admin/view/admin/category/add.phtml:38
+#: Admin/view/admin/category/edit.phtml:39
+#: Admin/view/admin/customer/add.phtml:39
+#: Admin/view/admin/customer/edit.phtml:39
+#: Admin/view/admin/email-campaign/add.phtml:36
+#: Admin/view/admin/email-campaign/edit.phtml:36
+#: Admin/view/admin/phone-number/add.phtml:38
+#: Admin/view/admin/phone-number/edit.phtml:38
+#: Admin/view/admin/product/add.phtml:39
+#: Admin/view/admin/product/edit.phtml:39
+#: Admin/view/admin/product/nesting.phtml:28
+#: Admin/view/admin/street-address/add.phtml:40
+#: Admin/view/admin/street-address/edit.phtml:40
+#: Application/view/application/customer/edit-address.phtml:21
+#: Application/view/application/customer/edit-personal-info.phtml:21
+msgid "Save"
+msgstr "Salvar"
+
+#: Admin/view/admin/admin/add.phtml:38 Admin/view/admin/category/add.phtml:39
+#: Admin/view/admin/customer/add.phtml:40
+#: Admin/view/admin/product/add.phtml:40
+msgid "Save and Add More"
+msgstr "Salvar e Adicionar Outro"
+
+#: Admin/view/admin/admin/add.phtml:44 Admin/view/admin/admin/edit.phtml:43
+#: Admin/view/admin/category/add.phtml:45
+#: Admin/view/admin/category/edit.phtml:45
+#: Admin/view/admin/customer/add.phtml:46
+#: Admin/view/admin/customer/edit.phtml:45
+#: Admin/view/admin/email-campaign/add.phtml:42
+#: Admin/view/admin/email-campaign/edit.phtml:42
+#: Admin/view/admin/phone-number/add.phtml:44
+#: Admin/view/admin/phone-number/edit.phtml:44
+#: Admin/view/admin/product/add.phtml:46
+#: Admin/view/admin/product/edit.phtml:45
+#: Admin/view/admin/street-address/add.phtml:46
+#: Admin/view/admin/street-address/edit.phtml:46
+#: Application/view/application/customer/add-address.phtml:22
+#: Application/view/application/customer/add-phone.phtml:19
+#: Application/view/application/customer/edit-address.phtml:22
+#: Application/view/application/customer/edit-addresses-phones.phtml:49
+#: Application/view/application/customer/edit-addresses-phones.phtml:92
+#: Application/view/application/customer/edit-personal-info.phtml:22
+#: Application/view/application/customer/edit-phone.phtml:19
+#: Application/view/application/shop/finish.phtml:168
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: Admin/view/admin/admin/edit.phtml:8 Admin/view/admin/admin/list.phtml:34
+#: Admin/view/admin/category/edit.phtml:8
+#: Admin/view/admin/category/list.phtml:38
+#: Admin/view/admin/customer/edit.phtml:8
+#: Admin/view/admin/customer/list.phtml:40
+#: Admin/view/admin/email-campaign/edit.phtml:8
+#: Admin/view/admin/email-campaign/list.phtml:74
+#: Admin/view/admin/order/list.phtml:470
+#: Admin/view/admin/phone-number/edit.phtml:8
+#: Admin/view/admin/product/edit.phtml:8
+#: Admin/view/admin/product/list.phtml:40
+#: Admin/view/admin/street-address/edit.phtml:8
+#: Application/view/application/customer/edit-addresses-phones.phtml:35
+#: Application/view/application/customer/edit-addresses-phones.phtml:78
+#: Application/view/application/customer/edit-phone.phtml:18
+msgid "Edit"
+msgstr "Editar"
+
+#: Admin/view/admin/admin/list.phtml:4
+msgid "Admin <small>Management</small>"
+msgstr "Administradores <small>Gerenciamento</small>"
+
+#: Admin/view/admin/admin/list.phtml:45
+msgid "Delete Admin"
+msgstr "Excluir Administrador"
+
+#: Admin/view/admin/admin/list.phtml:46
+#, php-format
+msgid "Are you sure you want to delete admin %s (ID %s)?"
+msgstr "Tem certeza que deseja excluir o administrador %s (ID %s)?"
+
+#: Admin/view/admin/admin/list.phtml:50
+#: Admin/view/admin/category/list.phtml:51
+#: Admin/view/admin/customer/list.phtml:53
+#: Admin/view/admin/email-campaign/list.phtml:88
+#: Admin/view/admin/order/list.phtml:102
+#: Admin/view/admin/product/list.phtml:53
+msgid "Delete"
+msgstr "Excluir"
+
+#: Admin/view/admin/auth/login.phtml:10
+msgid "Username"
+msgstr "Usuário"
+
+#: Admin/view/admin/auth/login.phtml:37
+#: Application/view/application/customer/login.phtml:18
+msgid "Login"
+msgstr "Login"
+
+#: Admin/view/admin/auth/login.phtml:39
+msgid "Forgot Username or Password?"
+msgstr "Esqueceu o Usuário ou a Senha?"
+
+#: Admin/view/admin/category/add.phtml:8
+#: Admin/view/admin/category/edit.phtml:8
+msgid "Category"
+msgstr "Categoria"
+
+#: Admin/view/admin/category/edit.phtml:72
+msgid "Clear Image"
+msgstr "Excluir Imagem"
+
+#: Admin/view/admin/category/list.phtml:4
+msgid "Category <small>Management</small>"
+msgstr "Categorias <small>Gerenciamento</small>"
+
+#: Admin/view/admin/category/list.phtml:46
+msgid "Delete Category"
+msgstr "Excluir Categoria"
+
+#: Admin/view/admin/category/list.phtml:47
+#, php-format
+msgid "Are you sure you want to delete category %s (ID %s)?"
+msgstr "Tem certeza que deseja excluir a categoria %s (ID %s)?"
+
+#: Admin/view/admin/customer/add.phtml:8
+#: Admin/view/admin/customer/edit.phtml:8
+#: Admin/view/admin/order/list.phtml:234 Admin/view/admin/order/print.phtml:7
+msgid "Customer"
+msgstr "Cliente"
+
+#: Admin/view/admin/customer/edit.phtml:68
+msgid "Street Addresses"
+msgstr "Endereços"
+
+#: Admin/view/admin/customer/edit.phtml:102
+msgid "Delete Street Address"
+msgstr "Excluir Endereço"
+
+#: Admin/view/admin/customer/edit.phtml:103
+#, php-format
+msgid "Are you sure you want do delete street address of ID %s?"
+msgstr "Tem certeza que deseja excluir o endereço cuja ID é %s?"
+
+#: Admin/view/admin/customer/edit.phtml:123
+msgid "No street addresses were found."
+msgstr "Nenhum endereço foi encontrado."
+
+#: Admin/view/admin/customer/edit.phtml:132
+#: Admin/view/admin/order/print.phtml:12
+#: Application/view/application/customer/edit-addresses-phones.phtml:56
+msgid "Phones"
+msgstr "Telefones"
+
+#: Admin/view/admin/customer/edit.phtml:166
+msgid "Delete Phone Number"
+msgstr "Excluir Número de Telefone"
+
+#: Admin/view/admin/customer/edit.phtml:167
+#, php-format
+msgid "Are you sure you want do delete phone number of ID %s?"
+msgstr "Tem certeza que deseja excluir o número de telefone cuja ID é %s?"
+
+#: Admin/view/admin/customer/edit.phtml:187
+msgid "No phone numbers were found."
+msgstr "Nenhum número de telefone foi encontrado."
+
+#: Admin/view/admin/customer/edit.phtml:202
+#: Application/view/application/customer/add-address.phtml:7
+msgid "Add Street Address"
+msgstr "Adicionar Endereço"
+
+#: Admin/view/admin/customer/edit.phtml:209
+#: Application/view/application/customer/add-phone.phtml:7
+msgid "Add Phone Number"
+msgstr "Adicionar Número de Telefone"
+
+#: Admin/view/admin/customer/list.phtml:4
+msgid "Customer <small>Management</small>"
+msgstr "Clientes <small>Gerenciamento</small>"
+
+#: Admin/view/admin/customer/list.phtml:48
+msgid "Delete Customer"
+msgstr "Excluir Cliente"
+
+#: Admin/view/admin/customer/list.phtml:49
+#, php-format
+msgid "Are you sure you want to delete customer %s (ID %s)?"
+msgstr "Tem certeza que deseja excluir o cliente %s (ID %s)?"
+
+#: Admin/view/admin/email-campaign/add.phtml:8
+#: Admin/view/admin/email-campaign/edit.phtml:8
+#: Admin/view/admin/email-campaign/logs.phtml:5
+msgid "Email Campaign"
+msgstr "Campanhas de Email"
+
+#: Admin/view/admin/email-campaign/edit.phtml:57
+msgid "Dispatches"
+msgstr "Disparos"
+
+#: Admin/view/admin/email-campaign/edit.phtml:75
+msgid "Y-m-d H:i:s"
+msgstr "d/m/Y H:i:s"
+
+#: Admin/view/admin/email-campaign/edit.phtml:89
+#: Admin/view/admin/email-campaign/list.phtml:45
+#: Application/view/application/shop/finish.phtml:32
+msgid "%s% Complete"
+msgstr "%s% Concluido"
+
+#: Admin/view/admin/email-campaign/edit.phtml:100
+msgid "Processing"
+msgstr "Em Processamento"
+
+#: Admin/view/admin/email-campaign/edit.phtml:127
+msgid "Abort Email Campaign Dispatch"
+msgstr "Interromper Disparo da Campanha"
+
+#: Admin/view/admin/email-campaign/edit.phtml:128
+#, php-format
+msgid ""
+"Are you sure you want to abort email campaign %s (ID %s) currently active "
+"dispatch?"
+msgstr ""
+"Tem certeza que deseja interromper o disparo da campanha de email %s (ID %s)?"
+
+#: Admin/view/admin/email-campaign/edit.phtml:132
+msgid "Abort Dispatch"
+msgstr "Interromper Disparo"
+
+#: Admin/view/admin/email-campaign/edit.phtml:143
+#: Admin/view/admin/email-campaign/list.phtml:63
+msgid "Dispatch Email Campaign"
+msgstr "Disparar Campanha de Email"
+
+#: Admin/view/admin/email-campaign/edit.phtml:144
+#: Admin/view/admin/email-campaign/list.phtml:64
+#, php-format
+msgid ""
+"You are going to dispatch the email campaign %s. It may take several minutes "
+"depending on your customer database size. Are you sure?"
+msgstr ""
+"Você irá disparar a campanha de email %s. O processo pode levar vários "
+"minutos para ser totalmente concluído (dependendo do seu banco de clientes). "
+"Tem certeza?"
+
+#: Admin/view/admin/email-campaign/edit.phtml:148
+#: Admin/view/admin/email-campaign/list.phtml:68
+msgid "Dispatch"
+msgstr "Disparar"
+
+#: Admin/view/admin/email-campaign/list.phtml:4
+msgid "Email Campaign <small>Management</small>"
+msgstr "Campanhas de Email <small>Gerenciamento</small>"
+
+#: Admin/view/admin/email-campaign/list.phtml:83
+msgid "Delete Email Campaign"
+msgstr "Excluir Campanha de Email"
+
+#: Admin/view/admin/email-campaign/list.phtml:84
+#, php-format
+msgid "Are you sure you want to delete email campaign %s (ID %s)?"
+msgstr "Tem certeza que deseja excluir a campanha de email %s (ID %s)?"
+
+#: Admin/view/admin/email-campaign/list.phtml:92
+#: Admin/view/admin/email-campaign/logs.phtml:5
+msgid "View Logs"
+msgstr "Visualizar Logs"
+
+#: Admin/view/admin/email-campaign/logs.phtml:25
+msgid "Log"
+msgstr "Log"
+
+#: Admin/view/admin/email-campaign/logs.phtml:36
+msgid "Error Log"
+msgstr "Log de Erros"
+
+#: Admin/view/admin/email-campaign/logs.phtml:51
+msgid "No log files were created yet."
+msgstr "Os arquivos de log ainda não foram criados."
+
+#: Admin/view/admin/email-campaign/logs.phtml:65
+msgid "Clear Logs"
+msgstr "Limpar Logs"
+
+#: Admin/view/admin/email-campaign/logs.phtml:72
+msgid "Back"
+msgstr "Voltar"
+
+#: Admin/view/admin/order/list.phtml:9
+msgid "Order <small>Management</small>"
+msgstr "Pedidos <small>Gerenciamento</small>"
+
+#: Admin/view/admin/order/list.phtml:18
+msgid "Today Orders"
+msgstr "Pedidos de Hoje"
+
+#: Admin/view/admin/order/list.phtml:62
+msgid "Reload"
+msgstr "Atualizar"
+
+#: Admin/view/admin/order/list.phtml:71
+msgid "Count the Money in the Till"
+msgstr "Fechar o Caixa"
+
+#: Admin/view/admin/order/list.phtml:72
+msgid ""
+"Are you sure you want to count the money in the till? All active orders will "
+"be marked as inactive and the order number will be reseted."
+msgstr ""
+"Tem certeza que deseja fechar o caixa? Todos os pedidos ativos serão "
+"marcados como inativos e o número dos pedidos será reiniciado."
+
+#: Admin/view/admin/order/list.phtml:76
+msgid "Count Money in the Till"
+msgstr "Fechar Caixa"
+
+#: Admin/view/admin/order/list.phtml:81 Admin/view/admin/order/list.phtml:540
+msgid "Mark as Paid"
+msgstr "Marcar Como Pago"
+
+#: Admin/view/admin/order/list.phtml:84 Admin/view/admin/order/list.phtml:550
+msgid "Approve"
+msgstr "Aprovar"
+
+#: Admin/view/admin/order/list.phtml:90
+msgid "Print Order"
+msgstr "Imprimir Pedido"
+
+#: Admin/view/admin/order/list.phtml:98
+msgid "Delete Order"
+msgstr "Excluir Pedido"
+
+#: Admin/view/admin/order/list.phtml:121
+msgid "Order Info"
+msgstr "Info. do Pedido"
+
+#: Admin/view/admin/order/list.phtml:122
+msgid "Customer Info"
+msgstr "Info. do Cliente"
+
+#: Admin/view/admin/order/list.phtml:123
+msgid "Ordered Products"
+msgstr "Produtos"
+
+#: Admin/view/admin/order/list.phtml:136
+msgid "Order Number"
+msgstr "Número do Pedido"
+
+#: Admin/view/admin/order/list.phtml:140
+msgid "Status"
+msgstr "Status"
+
+#: Admin/view/admin/order/list.phtml:141
+msgid "Status History"
+msgstr "Histórico de Status"
+
+#: Admin/view/admin/order/list.phtml:144
+msgid "Order Time"
+msgstr "Horário do Pedido"
+
+#: Admin/view/admin/order/list.phtml:148
+msgid "Payment Method"
+msgstr "Método de Pagamento"
+
+#: Admin/view/admin/order/list.phtml:156 Admin/view/admin/order/print.phtml:29
+msgid "Change"
+msgstr "Troco"
+
+#: Admin/view/admin/order/list.phtml:160
+msgid "Shipping Price"
+msgstr "Taxa de Entrega"
+
+#: Admin/view/admin/order/list.phtml:164
+msgid "Started Cooking At"
+msgstr "Preparo Iniciado Às"
+
+#: Admin/view/admin/order/list.phtml:168
+msgid "Finished Cooking At"
+msgstr "Preparo Finalizado Às"
+
+#: Admin/view/admin/order/list.phtml:172
+msgid "Shipped At"
+msgstr "Enviado Às"
+
+#: Admin/view/admin/order/list.phtml:176
+msgid "Received At"
+msgstr "Entregue Às"
+
+#: Admin/view/admin/order/list.phtml:180
+msgid "Cooking Time"
+msgstr "Tempo de Preparo"
+
+#: Admin/view/admin/order/list.phtml:184
+msgid "Shipping Time"
+msgstr "Tempo de Entrega"
+
+#: Admin/view/admin/order/list.phtml:188
+msgid "Period"
+msgstr "Período"
+
+#: Admin/view/admin/order/list.phtml:193 Admin/view/admin/order/list.phtml:194
+#: Admin/view/admin/order/print.phtml:86
+msgid "Notes"
+msgstr "Observações"
+
+#: Admin/view/admin/order/list.phtml:197 Admin/view/admin/order/print.phtml:66
+msgid "Chopsticks"
+msgstr "Hashis"
+
+#: Admin/view/admin/order/list.phtml:201 Admin/view/admin/order/print.phtml:71
+msgid "Soy Sauce?"
+msgstr "Shoyo?"
+
+#: Admin/view/admin/order/list.phtml:205 Admin/view/admin/order/print.phtml:76
+msgid "Wasabi?"
+msgstr "Wasabi?"
+
+#: Admin/view/admin/order/list.phtml:209 Admin/view/admin/order/print.phtml:81
+msgid "Gari?"
+msgstr "Gengibre?"
+
+#: Admin/view/admin/order/list.phtml:213
+msgid "Approved"
+msgstr "Aprovado"
+
+#: Admin/view/admin/order/list.phtml:217
+msgid "Paid"
+msgstr "Pago"
+
+#: Admin/view/admin/order/list.phtml:238
+msgid "Customer Phones"
+msgstr "Telefones do Cliente"
+
+#: Admin/view/admin/order/list.phtml:239
+msgid "Customer Phones List"
+msgstr "Lista de Telefones do Cliente"
+
+#: Admin/view/admin/order/list.phtml:242 Admin/view/admin/order/print.phtml:42
+#: Application/view/application/customer/register.phtml:30
+msgid "Address"
+msgstr "Endereço"
+
+#: Admin/view/admin/order/list.phtml:252 Admin/view/admin/product/add.phtml:8
+#: Admin/view/admin/product/edit.phtml:8
+#: Application/view/application/shop/cart.phtml:20
+#: Application/view/application/shop/finish.phtml:62
+msgid "Product"
+msgstr "Produto"
+
+#: Admin/view/admin/order/list.phtml:253
+#: Application/view/application/shop/cart.phtml:28
+#: Application/view/application/shop/cart.phtml:309
+#: Application/view/application/shop/finish.phtml:70
+msgid "Quantity"
+msgstr "Quantidade"
+
+#: Admin/view/admin/order/list.phtml:254
+msgid "Unit Price"
+msgstr "Preço Unitário"
+
+#: Admin/view/admin/order/list.phtml:255
+msgid "Additional Info"
+msgstr "Informações Adicionais"
+
+#: Admin/view/admin/order/list.phtml:364 Admin/view/admin/order/list.phtml:374
+msgid "__STATUS__ at __TIME_OCCURED__"
+msgstr "__STATUS__ às __TIME_OCCURED__"
+
+#: Admin/view/admin/order/list.phtml:402
+msgid "click to view"
+msgstr "clique para visualizar"
+
+#: Admin/view/admin/order/list.phtml:520
+msgid ""
+"Are you sure you want to delete order #__ID__? This will impact in your "
+"statistics."
+msgstr ""
+"Tem certeza que deseja excluir o pedido #__ID__? Haverá impacto nas "
+"estatísticas geradas."
+
+#: Admin/view/admin/order/list.phtml:527
+msgid "Unapprove"
+msgstr "Desaprovar"
+
+#: Admin/view/admin/order/list.phtml:534
+msgid "Mark as Unpaid"
+msgstr "Marcar Como Não Pago"
+
+#: Admin/view/admin/order/list.phtml:635
+msgid ""
+"Changing the period may result in the order disappearing from this page. Are "
+"you sure?"
+msgstr ""
+"Ao alterar o período do pedido, ele desaparecerá dessa página. Tem certeza?"
+
+#: Admin/view/admin/order/print.phtml:21
+msgid "Payment"
+msgstr "Pagamento"
+
+#: Admin/view/admin/order/print.phtml:23 Admin/view/admin/order/print.phtml:47
+msgid "Order"
+msgstr "Pedido"
+
+#: Admin/view/admin/order/print.phtml:25
+msgid "Shipping"
+msgstr "Entrega"
+
+#: Admin/view/admin/order/print.phtml:27
+msgid "Total"
+msgstr "Total"
+
+#: Admin/view/admin/order/print.phtml:32
+msgid "Time"
+msgstr "Horário"
+
+#: Admin/view/admin/order/print.phtml:37
+msgid "Date"
+msgstr "Data"
+
+#: Admin/view/admin/order/print.phtml:39
+msgid "Y-m-d"
+msgstr "d/m/Y"
+
+#: Admin/view/admin/order/print.phtml:44
+msgid "Pick up the order"
+msgstr "Retirar o pedido"
+
+#: Admin/view/admin/phone-number/add.phtml:8
+#: Admin/view/admin/phone-number/edit.phtml:8
+msgid "Phone Number"
+msgstr "Número de Telefone"
+
+#: Admin/view/admin/phone-number/add.phtml:18
+#: Admin/view/admin/phone-number/edit.phtml:18
+#: Admin/view/admin/street-address/add.phtml:18
+#: Admin/view/admin/street-address/edit.phtml:18
+#, php-format
+msgid "Customer: %s"
+msgstr "Cliente: %s"
+
+#: Admin/view/admin/product/list.phtml:4
+msgid "Product <small>Management</small>"
+msgstr "Produtos <small>Gerenciamento</small>"
+
+#: Admin/view/admin/product/list.phtml:48
+msgid "Delete Product"
+msgstr "Excluir Produto"
+
+#: Admin/view/admin/product/list.phtml:49
+#, php-format
+msgid "Are you sure you want to delete product %s (ID %s)?"
+msgstr "Tem certeza que deseja excluir o produto %s (ID %s)?"
+
+#: Admin/view/admin/product/nesting.phtml:4
+msgid "Category and Product <small>Nesting</small>"
+msgstr "Categorias e Produtos <small>Gerenciamento</small>"
+
+#: Admin/view/admin/product/nesting.phtml:13
+msgid "Organize Categories and Products"
+msgstr "Organizar Categorias e Produtos"
+
+#: Admin/view/admin/statistics/customers.phtml:7
+#: Admin/view/admin/statistics/monetary.phtml:7
+#: Admin/view/admin/statistics/products.phtml:7
+msgid "Statistics Parameters"
+msgstr "Parâmetros da Estatística"
+
+#: Admin/view/admin/statistics/customers.phtml:17
+#: Admin/view/admin/statistics/monetary.phtml:17
+#: Admin/view/admin/statistics/products.phtml:17
+msgid "From"
+msgstr "De"
+
+#: Admin/view/admin/statistics/customers.phtml:34
+#: Admin/view/admin/statistics/monetary.phtml:34
+#: Admin/view/admin/statistics/products.phtml:34
+msgid "To"
+msgstr "Para"
+
+#: Admin/view/admin/statistics/customers.phtml:50
+#: Admin/view/admin/statistics/monetary.phtml:50
+#: Admin/view/admin/statistics/products.phtml:50
+msgid "Range"
+msgstr "Intervalo"
+
+#: Admin/view/admin/statistics/customers.phtml:53
+#: Admin/view/admin/statistics/monetary.phtml:53
+#: Admin/view/admin/statistics/products.phtml:53
+msgid "Daily"
+msgstr "Diariamente"
+
+#: Admin/view/admin/statistics/customers.phtml:54
+#: Admin/view/admin/statistics/monetary.phtml:54
+#: Admin/view/admin/statistics/products.phtml:54
+msgid "Monthly"
+msgstr "Mensalmente"
+
+#: Admin/view/admin/statistics/customers.phtml:55
+#: Admin/view/admin/statistics/monetary.phtml:55
+#: Admin/view/admin/statistics/products.phtml:55
+msgid "Yearly"
+msgstr "Anualmente"
+
+#: Admin/view/admin/statistics/customers.phtml:69
+#: Admin/view/admin/statistics/monetary.phtml:69
+#: Admin/view/admin/statistics/products.phtml:69
+msgid "Load"
+msgstr "Carregar"
+
+#: Admin/view/admin/statistics/customers.phtml:83
+msgid "Statistics <small>most valuable customers</small>"
+msgstr "Estatística <small>Clientes Mais Valiosos</small>"
+
+#: Admin/view/admin/statistics/customers.phtml:90
+msgid "Spent Money per Customer"
+msgstr "Quantia Gasta por Cliente"
+
+#: Admin/view/admin/statistics/customers.phtml:102
+msgid "Orders per Customer"
+msgstr "Pedidos por Cliente"
+
+#: Admin/view/admin/statistics/customers.phtml:135
+#: Admin/view/admin/statistics/customers.phtml:163
+#: Admin/view/admin/statistics/monetary.phtml:135
+#: Admin/view/admin/statistics/monetary.phtml:163
+#: Admin/view/admin/statistics/products.phtml:135
+#: Admin/view/admin/statistics/products.phtml:163
+#, php-format
+msgid "%x"
+msgstr ""
+
+#: Admin/view/admin/statistics/monetary.phtml:83
+msgid "Statistics <small>monetary</small>"
+msgstr "Estatística <small>Monetária</small>"
+
+#: Admin/view/admin/statistics/monetary.phtml:90
+msgid "Income Amount"
+msgstr "Receita"
+
+#: Admin/view/admin/statistics/monetary.phtml:102
+msgid "Amount of Orders"
+msgstr "Quantidade de Pedidos"
+
+#: Admin/view/admin/statistics/products.phtml:83
+msgid "Statistics <small>most selling products</small>"
+msgstr "Estatística <small>Produtos Mais Vendidos</small>"
+
+#: Admin/view/admin/statistics/products.phtml:90
+msgid "Amount of Money per Product"
+msgstr "Receita por Produto"
+
+#: Admin/view/admin/statistics/products.phtml:102
+msgid "Quantity per Product"
+msgstr "Quantidade por Produto"
+
+#: Admin/view/admin/street-address/add.phtml:8
+#: Admin/view/admin/street-address/edit.phtml:8
+msgid "Street Address"
+msgstr "Endereço"
+
+#: Admin/view/error/404.phtml:1 Application/view/error/404.phtml:1
+msgid "A 404 error occurred"
+msgstr ""
+
+#: Admin/view/error/404.phtml:10 Application/view/error/404.phtml:10
+msgid "The requested controller was unable to dispatch the request."
+msgstr ""
+
+#: Admin/view/error/404.phtml:13 Application/view/error/404.phtml:13
+msgid ""
+"The requested controller could not be mapped to an existing controller class."
+msgstr ""
+
+#: Admin/view/error/404.phtml:16 Application/view/error/404.phtml:16
+msgid "The requested controller was not dispatchable."
+msgstr ""
+
+#: Admin/view/error/404.phtml:19 Application/view/error/404.phtml:19
+msgid "The requested URL could not be matched by routing."
+msgstr ""
+
+#: Admin/view/error/404.phtml:22 Application/view/error/404.phtml:22
+msgid "We cannot determine at this time why a 404 was generated."
+msgstr ""
+
+#: Admin/view/error/404.phtml:34 Application/view/error/404.phtml:34
+msgid "Controller"
+msgstr ""
+
+#: Admin/view/error/404.phtml:41 Application/view/error/404.phtml:41
+#, php-format
+msgid "resolves to %s"
+msgstr ""
+
+#: Admin/view/error/404.phtml:53 Admin/view/error/index.phtml:8
+#: Application/view/error/404.phtml:53 Application/view/error/index.phtml:8
+msgid "Additional information"
+msgstr ""
+
+#: Admin/view/error/404.phtml:56 Admin/view/error/404.phtml:80
+#: Admin/view/error/index.phtml:11 Admin/view/error/index.phtml:35
+#: Application/view/error/404.phtml:56 Application/view/error/404.phtml:80
+#: Application/view/error/index.phtml:11 Application/view/error/index.phtml:35
+msgid "File"
+msgstr ""
+
+#: Admin/view/error/404.phtml:60 Admin/view/error/404.phtml:84
+#: Admin/view/error/index.phtml:15 Admin/view/error/index.phtml:39
+#: Application/view/error/404.phtml:60 Application/view/error/404.phtml:84
+#: Application/view/error/index.phtml:15 Application/view/error/index.phtml:39
+msgid "Message"
+msgstr ""
+
+#: Admin/view/error/404.phtml:64 Admin/view/error/404.phtml:88
+#: Admin/view/error/index.phtml:19 Admin/view/error/index.phtml:43
+#: Application/view/error/404.phtml:64 Application/view/error/404.phtml:88
+#: Application/view/error/index.phtml:19 Application/view/error/index.phtml:43
+msgid "Stack trace"
+msgstr ""
+
+#: Admin/view/error/404.phtml:74 Admin/view/error/index.phtml:29
+#: Application/view/error/404.phtml:74 Application/view/error/index.phtml:29
+msgid "Previous exceptions"
+msgstr ""
+
+#: Admin/view/error/404.phtml:103 Admin/view/error/index.phtml:58
+#: Application/view/error/404.phtml:103 Application/view/error/index.phtml:58
+msgid "No Exception available"
+msgstr ""
+
+#: Admin/view/error/index.phtml:1 Application/view/error/index.phtml:1
+msgid "An error occurred"
+msgstr ""
+
+#: Admin/view/helper/pagination/_partial.phtml:9
+#: Admin/view/helper/pagination/_partial.phtml:17
+msgid "Prev"
+msgstr ""
+
+#: Admin/view/helper/pagination/_partial.phtml:37
+#: Admin/view/helper/pagination/_partial.phtml:45
+msgid "Next"
+msgstr ""
+
+#: Admin/view/layout/layout.phtml:5
+msgid "Personal Sushi - Administration"
+msgstr "Personal Sushi - Administração"
+
+#: Admin/view/layout/layout.phtml:44
+msgid "Settings"
+msgstr "Configurações"
+
+#: Admin/view/layout/layout.phtml:51
+msgid "Account"
+msgstr "Minha Conta"
+
+#: Admin/view/layout/layout.phtml:63
+msgid "My Account"
+msgstr "Minha Conta"
+
+#: Admin/view/layout/login.phtml:5
+msgid "Skeleton Application"
+msgstr ""
+
+#: Admin/view/layout/login.phtml:40
+msgid "Administrator Login"
+msgstr "Login do Administrador"
+
+#: Application/view/application/customer/edit-address.phtml:7
+msgid "Edit Street Address"
+msgstr "Editar Endereço"
+
+#: Application/view/application/customer/edit-addresses-phones.phtml:7
+#: Application/view/application/customer/my-account.phtml:39
+msgid "Edit Addresses and Phones"
+msgstr "Editar Endereços e Telefones"
+
+#: Application/view/application/customer/edit-addresses-phones.phtml:13
+msgid "Addresses"
+msgstr "Endereços"
+
+#: Application/view/application/customer/edit-addresses-phones.phtml:23
+msgid "There are no registered addresses for your account."
+msgstr "Não há endereços registrados em sua conta."
+
+#: Application/view/application/customer/edit-addresses-phones.phtml:42
+msgid "Remove Address"
+msgstr "Excluir Endereço"
+
+#: Application/view/application/customer/edit-addresses-phones.phtml:43
+msgid "Are you sure you want to remove the selected address?"
+msgstr "Tem certeza que deseja excluir o endereço selecionado?"
+
+#: Application/view/application/customer/edit-addresses-phones.phtml:47
+#: Application/view/application/customer/edit-addresses-phones.phtml:90
+#: Application/view/application/shop/cart.phtml:53
+msgid "Remove"
+msgstr "Excluir"
+
+#: Application/view/application/customer/edit-addresses-phones.phtml:66
+msgid "There are no registered phones for your account."
+msgstr "Não há telefones registrados em sua conta."
+
+#: Application/view/application/customer/edit-addresses-phones.phtml:85
+msgid "Remove Phone"
+msgstr "Excluir Telefone"
+
+#: Application/view/application/customer/edit-addresses-phones.phtml:86
+msgid "Are you sure you want to remove the selected phone?"
+msgstr "Tem certeza que deseja excluir o telefone selecionado?"
+
+#: Application/view/application/customer/edit-personal-info.phtml:7
+#: Application/view/application/customer/my-account.phtml:20
+msgid "Edit Personal Information"
+msgstr "Editar Informações Pessoais"
+
+#: Application/view/application/customer/edit-phone.phtml:7
+msgid "Edit Phone Number"
+msgstr "Editar Número de Telefone"
+
+#: Application/view/application/customer/login.phtml:7
+msgid "Customer Login"
+msgstr "Login do Cliente"
+
+#: Application/view/application/customer/my-account.phtml:7
+msgid "Customer Management"
+msgstr "Gerenciamento do Cliente"
+
+#: Application/view/application/customer/my-account.phtml:25
+msgid ""
+"Edit your personal information. You may also choose if you want to receive "
+"our promotions in your email or not."
+msgstr ""
+"Editar suas informações pessoais. Você também poderá escolher se deseja "
+"receber nossas promoções no seu email ou não."
+
+#: Application/view/application/customer/my-account.phtml:44
+msgid ""
+"Edit the delivery addresses and phones of your account. When finishing your "
+"order, you will be able to select one of these addresses for the delivery. "
+"You may also receive SMS notifications on your orders status in the mobile "
+"phones associated with your account."
+msgstr ""
+"Editar os endereços de entrega e os números de telefone da sua conta. Ao "
+"finalizar seu pedido, você poderá escolher um desses endereços para a "
+"entrega. Você também poderá receber notificações via SMS dos status de seus "
+"pedidos nos telefones móveis associados à sua conta."
+
+#: Application/view/application/customer/my-account.phtml:60
+msgid "Track Last Order"
+msgstr "Rastrear Último Pedido"
+
+#: Application/view/application/customer/my-account.phtml:65
+msgid ""
+"Track the status of your order. If there is an active order of yours you "
+"will be able to track its status."
+msgstr ""
+"Rastrear o status do seu pedido. Se há um pedido seu ativo, você poderá "
+"rastrear seu status."
+
+#: Application/view/application/customer/my-account.phtml:78
+msgid "View Orders"
+msgstr "Visualizar Pedidos"
+
+#: Application/view/application/customer/my-account.phtml:83
+msgid ""
+"View a list of all orders you have done. You may also view detailed "
+"information of each order."
+msgstr ""
+"Visualizar uma lista de todos os pedidos que você já efetuou. Você também "
+"poderá visualizar informações detalhadas de cada pedido."
+
+#: Application/view/application/customer/my-account.phtml:99
+msgid "Logout"
+msgstr "Sair"
+
+#: Application/view/application/customer/my-account.phtml:104
+msgid "Sign out of your account."
+msgstr "Sair da sua conta."
+
+#: Application/view/application/customer/register.phtml:7
+msgid "Customer Registration"
+msgstr "Cadastro de Cliente"
+
+#: Application/view/application/customer/register.phtml:13
+msgid "Personal Information"
+msgstr "Informação Pessoal"
+
+#: Application/view/application/customer/track-order.phtml:9
+#: Application/view/application/customer/track-order.phtml:53
+msgid "Track Order"
+msgstr "Rastrear Pedido"
+
+#: Application/view/application/customer/track-order.phtml:11
+#, php-format
+msgid "Order number: %s"
+msgstr "Número do pedido: %s"
+
+#: Application/view/application/customer/track-order.phtml:55
+msgid "There are no orders in your account yet."
+msgstr "Não há compras na sua conta ainda."
+
+#: Application/view/application/index/about-us.phtml:11
+msgid "English Title 1"
+msgstr ""
+"Especializado em delivery e buffet, o Personal Sushi oferece atendimento "
+"diferenciado e um cardápio completo com produtos de qualidade"
+
+#: Application/view/application/index/about-us.phtml:19
+msgid ""
+"#1 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent purus "
+"tellus, rhoncus eu eros id, pretium molestie nibh. Interdum et malesuada "
+"fames ac ante ipsum primis in faucibus. Curabitur massa ligula, porta vel "
+"elementum id, dignissim eget neque. Donec bibendum rhoncus turpis, sit amet "
+"porttitor neque laoreet id. Vestibulum dignissim nibh ac adipiscing pretium. "
+"Cras egestas a lorem vitae hendrerit. Aenean aliquet ligula at erat cursus, "
+"non vulputate ante consectetur. Pellentesque consequat iaculis facilisis. "
+"Quisque et nibh eu lectus lobortis mollis in a augue. Nunc non bibendum "
+"diam, sed blandit tellus. Cras aliquet velit a felis auctor, vel consectetur "
+"magna ullamcorper. Phasellus eget lorem eu dolor aliquet ultricies. Nulla "
+"posuere sagittis erat quis auctor."
+msgstr ""
+"O Personal Sushi surgiu há oito meses com a proposta de inovar e bem atender "
+"no segmento da culinária japonesa delivery. De acordo com o empresário "
+"Flávio Oioli a grande estrutura e o alto investimento garantem a qualidade "
+"dos produtos e permitem um serviço profissional diferenciado em buffet e "
+"delivery."
+
+#: Application/view/application/index/about-us.phtml:33
+msgid ""
+"#2 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent purus "
+"tellus, rhoncus eu eros id, pretium molestie nibh. Interdum et malesuada "
+"fames ac ante ipsum primis in faucibus. Curabitur massa ligula, porta vel "
+"elementum id, dignissim eget neque. Donec bibendum rhoncus turpis, sit amet "
+"porttitor neque laoreet id. Vestibulum dignissim nibh ac adipiscing pretium. "
+"Cras egestas a lorem vitae hendrerit. Aenean aliquet ligula at erat cursus, "
+"non vulputate ante consectetur. Pellentesque consequat iaculis facilisis. "
+"Quisque et nibh eu lectus lobortis mollis in a augue. Nunc non bibendum "
+"diam, sed blandit tellus. Cras aliquet velit a felis auctor, vel consectetur "
+"magna ullamcorper. Phasellus eget lorem eu dolor aliquet ultricies. Nulla "
+"posuere sagittis erat quis auctor."
+msgstr ""
+"Em novo endereço, o Personal Sushi oferece espaço climatizado onde os "
+"clientes podem buscar o pedido e pessoalmente acompanhar a produção do "
+"prato. Uma equipe formada por quatro sushis-man, um cozinheiro, duas "
+"atendentes e três motoboys dá o suporte necessário para a rapidez na entrega "
+"do Personal Sushi e garante a capacidade de realizar desde pequenas festas "
+"até grandes eventos com a presença de duas mil pessoas. Um completo serviço "
+"personalizado."
+
+#: Application/view/application/index/about-us.phtml:41
+msgid "English Title 2"
+msgstr "Principais Diferenciais"
+
+#: Application/view/application/index/about-us.phtml:49
+msgid ""
+"#3 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent purus "
+"tellus, rhoncus eu eros id, pretium molestie nibh. Interdum et malesuada "
+"fames ac ante ipsum primis in faucibus. Curabitur massa ligula, porta vel "
+"elementum id, dignissim eget neque. Donec bibendum rhoncus turpis, sit amet "
+"porttitor neque laoreet id. Vestibulum dignissim nibh ac adipiscing pretium. "
+"Cras egestas a lorem vitae hendrerit. Aenean aliquet ligula at erat cursus, "
+"non vulputate ante consectetur. Pellentesque consequat iaculis facilisis. "
+"Quisque et nibh eu lectus lobortis mollis in a augue. Nunc non bibendum "
+"diam, sed blandit tellus. Cras aliquet velit a felis auctor, vel consectetur "
+"magna ullamcorper. Phasellus eget lorem eu dolor aliquet ultricies. Nulla "
+"posuere sagittis erat quis auctor."
+msgstr ""
+"No sistema delivery, a qualidade do produto é garantida pelo frescor dos "
+"peixes e também pelo padrão das embalagens a vácuo, um rigoroso procedimento "
+"de higiene, livre de contaminação. Para facilitar a forma de pagamento o "
+"Personal Sushi aceita cartões de crédito e débito, inclusive na hora da "
+"entrega. Outra inovação é o atendimento online. O cliente pode fazer o "
+"pedido por telefone ou através da internet e pode, inclusive, acompanhar, no "
+"novo site interativo da Personal Sushi, todo processo, desde a produção até "
+"a entrega. No extenso cardápio os clientes encontram diversas opções: "
+"sushis, temakis e sashimis, yakissoba e até sobremesas. Todos os pedidos "
+"acompanham hashi e molho shoyu."
+
+#: Application/view/application/index/contact.phtml:7
+msgid "Contact Us"
+msgstr "Contato"
+
+#: Application/view/application/index/contact.phtml:13
+msgid "Personally"
+msgstr "Pessoalmente"
+
+#: Application/view/application/index/contact.phtml:16
+msgid "Rua Conde do Pinhal, 2345 - São Carlos - São Paulo"
+msgstr "Rua Conde do Pinhal, 2345 - São Carlos - São Paulo"
+
+#: Application/view/application/index/contact.phtml:20
+msgid "Business Hours"
+msgstr "Horário de Funcionamento"
+
+#: Application/view/application/index/contact.phtml:28
+msgid ""
+"Almoço de segunda a sexta, das 11 às 13h;<br/>\n"
+"                                Jantar de segunda a sábado das 18h30 às "
+"22h30."
+msgstr ""
+
+#: Application/view/application/index/contact.phtml:37
+msgid "By Phone"
+msgstr "Por Telefone"
+
+#: Application/view/application/index/contact.phtml:40
+msgid "tel:++551634130038"
+msgstr "tel:++551634130038"
+
+#: Application/view/application/index/contact.phtml:40
+msgid "(16) 3413-0038"
+msgstr "(16) 3413-0038"
+
+#: Application/view/application/index/contact.phtml:44
+msgid "Through Internet"
+msgstr "Pela Internet"
+
+#: Application/view/application/index/contact.phtml:47
+msgid "http://www.personalsushi.com.br/"
+msgstr "http://www.personalsushi.com.br/"
+
+#: Application/view/application/index/contact.phtml:48
+msgid "http://www.facebook.com/personalsushisaocarlos"
+msgstr "http://www.facebook.com/personalsushisaocarlos"
+
+#: Application/view/application/index/contact.phtml:49
+msgid "mailto:atendimento@personalsushi.com.br"
+msgstr "mailto:atendimento@personalsushi.com.br"
+
+#: Application/view/application/index/contact.phtml:49
+msgid "atendimento@personalsushi.com.br"
+msgstr "atendimento@personalsushi.com.br"
+
+#: Application/view/application/index/index.phtml:5
+#: Application/view/application/index/index.phtml:11
+#: Application/view/application/index/index.phtml:12
+msgid "The sushi your way, at your home"
+msgstr "O sushi do seu jeito, na sua casa"
+
+#: Application/view/application/index/index.phtml:21
+#: Application/view/application/index/index.phtml:22
+msgid "The most ordered"
+msgstr "Os mais pedidos"
+
+#: Application/view/application/index/index.phtml:28
+#: Application/view/application/index/index.phtml:29
+msgid "Personalize your order"
+msgstr "Personalize seu pedido"
+
+#: Application/view/application/index/index.phtml:35
+#: Application/view/application/index/index.phtml:36
+msgid "Thematic packaging"
+msgstr "Embalagens Temáticas"
+
+#: Application/view/application/menu/index.phtml:96
+msgid "Add to Cart"
+msgstr "Comprar"
+
+#: Application/view/application/shop/cart.phtml:9
+msgid "Your Cart"
+msgstr "Carrinho de Compras"
+
+#: Application/view/application/shop/cart.phtml:83
+#: Application/view/application/shop/cart.phtml:143
+msgid "Sashimis"
+msgstr "Sashimis"
+
+#: Application/view/application/shop/cart.phtml:84
+#: Application/view/application/shop/cart.phtml:144
+#, php-format
+msgid "Max. %s sashimis"
+msgstr "Max. %s sashimis"
+
+#: Application/view/application/shop/cart.phtml:96
+#: Application/view/application/shop/cart.phtml:160
+msgid "Niguiris"
+msgstr "Niguiris"
+
+#: Application/view/application/shop/cart.phtml:97
+#: Application/view/application/shop/cart.phtml:161
+#, php-format
+msgid "Max. %s niguiris"
+msgstr "Max. %s niguiris"
+
+#: Application/view/application/shop/cart.phtml:109
+#: Application/view/application/shop/cart.phtml:194
+msgid "Hossomakis"
+msgstr "Hossomakis"
+
+#: Application/view/application/shop/cart.phtml:110
+#: Application/view/application/shop/cart.phtml:195
+#, php-format
+msgid "%s hossomakis"
+msgstr "%s hossomakis"
+
+#: Application/view/application/shop/cart.phtml:122
+#: Application/view/application/shop/cart.phtml:207
+msgid "Uramakis"
+msgstr "Uramakis"
+
+#: Application/view/application/shop/cart.phtml:123
+#: Application/view/application/shop/cart.phtml:208
+#, php-format
+msgid "%s uramakis"
+msgstr "%s uramakis"
+
+#: Application/view/application/shop/cart.phtml:177
+msgid "Specials"
+msgstr "Especiais"
+
+#: Application/view/application/shop/cart.phtml:178
+#, php-format
+msgid "Max. %s specials"
+msgstr "Max. %s especiais"
+
+#: Application/view/application/shop/cart.phtml:228
+msgid "Customize"
+msgstr "Customize"
+
+#: Application/view/application/shop/cart.phtml:229
+msgid ""
+"Choose hossomakis, uramakis, hot rolls, niguiris, sashimis and special "
+"sushis.<br/>Hossomakis and uramakis must be multiple of 8 and hot rolls must "
+"be multiple of 6."
+msgstr ""
+"Escolha hossomakis, uramakis, hot rolls, niguiris, sashimis e sushis "
+"especiais.<br/>Hossomakis e uramakis precisam ser múltiplos de 8 e hot rolls "
+"múltiplos de 6."
+
+#: Application/view/application/shop/cart.phtml:231
+msgid "Describe how you want your set in detail..."
+msgstr "Descreva como você quer seu combinado em detalhes..."
+
+#: Application/view/application/shop/cart.phtml:265
+msgid "With shive"
+msgstr "Com cebolinha"
+
+#: Application/view/application/shop/cart.phtml:266
+msgid "Without shive"
+msgstr "Sem cebolinha"
+
+#: Application/view/application/shop/cart.phtml:315
+#, php-format
+msgid "Max. total: %s"
+msgstr "Max. total: %s"
+
+#: Application/view/application/shop/cart.phtml:360
+#, php-format
+msgid "Total: %s *"
+msgstr "Total: %s *"
+
+#: Application/view/application/shop/cart.phtml:363
+msgid "(*) The shipping tax will be calculated in the next step."
+msgstr "(*) A taxa de entrega será calculada no próximo passo."
+
+#: Application/view/application/shop/cart.phtml:371
+msgid "Update Cart"
+msgstr "Atualizar"
+
+#: Application/view/application/shop/cart.phtml:374
+msgid "Continue Buying"
+msgstr "Continuar Comprando"
+
+#: Application/view/application/shop/cart.phtml:376
+msgid "Clean Cart"
+msgstr "Limpar Carrinho"
+
+#: Application/view/application/shop/cart.phtml:379
+#: Application/view/application/shop/finish.phtml:55
+msgid "Finish Order"
+msgstr "Finalizar Pedido"
+
+#: Application/view/application/shop/finish.phtml:7
+msgid "Sending Your Order..."
+msgstr "Enviando Seu Pedido..."
+
+#: Application/view/application/shop/finish.phtml:11
+msgid "0% Complete"
+msgstr "0% Concluido"
+
+#: Application/view/application/shop/finish.phtml:35
+msgid "Order Sent. Redirecting..."
+msgstr "Pedido Enviado. Redirecionando..."
+
+#: Application/view/application/shop/finish.phtml:106
+msgid "Select the Period of Your Meal"
+msgstr "Selecione o Período da sua Refeição"
+
+#: Application/view/application/shop/finish.phtml:114
+msgid "Select an Address"
+msgstr "Selecione um Endereço"
+
+#: Application/view/application/shop/finish.phtml:122
+msgid "Select a Payment Method"
+msgstr "Selecione um Método de Pagamento"
+
+#: Application/view/application/shop/finish.phtml:130
+msgid "Additional options"
+msgstr "Opções adicionais"
+
+#: Application/view/application/shop/finish.phtml:151
+msgid "Any Additional Note?"
+msgstr "Alguma Observação?"
+
+#: Application/view/application/shop/finish.phtml:161
+#, php-format
+msgid "Total (without shipping tax): %s"
+msgstr "Total (sem taxa de entrega): %s"
+
+#: Application/view/application/shop/finish.phtml:171
+msgid "Send Order"
+msgstr "Enviar Pedido"
+
+#: Application/view/application/shop/success.phtml:7
+msgid "Order Complete"
+msgstr "Pedido Concluido"
+
+#: Application/view/application/shop/success.phtml:13
+#, php-format
+msgid "Your order number is %s."
+msgstr "O número do seu pedido é %s."
+
+#: Application/view/application/shop/success.phtml:27
+msgid "Track Order Status"
+msgstr "Rastrear Status do Pedido"
+
+#: Application/view/application/shop/success.phtml:32
+msgid "Track the status of your order."
+msgstr "Rastrear o status do seu pedido."
+
+#: Application/view/layout/layout.phtml:4
+msgid "Sushi Delivery - Personal Sushi"
+msgstr "Sushi Delivery - Personal Sushi São Carlos"
+
+#: Application/view/layout/layout.phtml:58
+msgid "http://facebook.com/personalsushi"
+msgstr "http://www.facebook.com/personalsushisaocarlos"
+
+#: Application/view/layout/layout.phtml:67
+msgid ""
+"Monday to friday,<br/>from 11AM to 1PM<br/>\n"
+"                                    Monday to saturday,<br/>from 6:30PM to "
+"10:30 PM"
+msgstr ""
+"De segunda a sexta,<br/>das 11h às 13h<br/>\n"
+"                                    De segunda a sábado,<br/>das 18h30 às "
+"22h30"
+
+#: Application/view/layout/layout.phtml:85
+#, php-format
+msgid ""
+"Welcome, %s.<br/>\n"
+"                                    <a href=\"%s\">Click here to visit your "
+"account</a>."
+msgstr ""
+"Bem vindo, %s.<br/>\n"
+"                                    <a href=\"%s\">Clique aqui para visitar "
+"sua conta</a>."
+
+#: Application/view/layout/layout.phtml:99
+#, php-format
+msgid ""
+"Welcome, visitor.<br/>\n"
+"                                    <a href=\"%s\">Login</a> or <a href=\"%s"
+"\">register</a>."
+msgstr ""
+"Bem vindo, visitante.<br/>\n"
+"                                    <a href=\"%s\">Faça login</a> ou <a href="
+"\"%s\">cadastre-se</a>."
+
+#: Application/view/layout/layout.phtml:127
+msgid "Accepting:"
+msgstr "Aceitando:"
+
+#: Application/view/layout/layout.phtml:139
+msgid "Design: <a href=\"mailto:nerohm@gmail.com\">Nero</a>"
+msgstr "Design: <a href=\"mailto:nerohm@gmail.com\">Nero</a>"
+
+#: Application/view/layout/layout.phtml:140
+msgid "Development: <a href=\"http://rafaa.me/\">Rafael Andreatta</a>"
+msgstr "Desenvolvimento: <a href=\"http://rafaa.me/\">Rafael Andreatta</a>"
+
+#~ msgid "Your set \""
+#~ msgstr "Seu combinado \""
+
+#~ msgid "Your product \""
+#~ msgstr "Seu produto \""
+
+#~ msgid "Credit Card"
+#~ msgstr "Cartão de Crédito"
+
+#~ msgid "Debit Card"
+#~ msgstr "Cartão de Débito"
+
+#~ msgid "Category and Product"
+#~ msgstr "Categoria e Produto"
+
+#~ msgid "Management"
+#~ msgstr "Gerenciamento"
+
+#~ msgid "at"
+#~ msgstr "às"

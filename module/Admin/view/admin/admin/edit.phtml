@@ -1,0 +1,55 @@
+<?php $this->form->prepare() ?>
+<?php $this->form->setAttribute('class', 'form-horizontal') ?>
+
+<?= $this->form()->openTag($this->form) ?>
+
+<div class="row">
+    <div class="col-md-12">
+        <h2 class="page-title"><?= $this->translate('Admin') ?> <small><?= $this->translate('Edit') ?></small></h2>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-6">
+        <section class="widget">
+            <header>
+                <h4>
+                    <!-- @FIXME: decide icons -->
+                    <i class="fa fa-align-left"></i>
+                </h4>
+            </header>
+            <div class="body">
+
+                    <fieldset>
+
+                        <legend class="section"><?= $this->translate('Basic Information') ?></legend>
+
+                        <?= $this->adminFormRow( $this->form->get('firstName') ) ?>
+                        <?= $this->adminFormRow( $this->form->get('lastName') ) ?>
+                        <?= $this->adminFormRow( $this->form->get('email') ) ?>
+                        <?= $this->adminFormRow( $this->form->get('password') ) ?>
+
+                    </fieldset>
+
+                    <div class="form-actions">
+
+                        <div>
+
+                            <button type="submit" class="btn btn-primary"><?= $this->translate('Save') ?></button>
+
+                            <a 
+                                class="btn btn-default" 
+                                href="<?= $this->url('admin', ['controller' => $this->currentController()]) ?>"
+                            >
+                                <?= $this->translate('Cancel') ?>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+            </div>
+        </section>
+    </div>
+</div>
+
+<?= $this->form()->closeTag($this->form) ?>

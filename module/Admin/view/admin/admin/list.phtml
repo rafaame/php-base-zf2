@@ -1,0 +1,71 @@
+<div class="content container">
+    <div class="row">
+        <div class="col-md-12">
+            <h2 class="page-title"><?= $this->translate('Admin <small>Management</small>') ?></h2>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <section class="widget">
+                <header>
+                    <h4>
+                        <i class="fa fa-hand-o-up"></i>
+                        <?= $this->translate('Admins') ?>
+                    </h4>
+                </header>
+                <div class="body">
+                    <table class="table table-hover datatable">
+                        <thead>
+                        <tr>
+                            <th class="hidden-xs">ID</th>
+                            <th>Name</th>
+                            <th>Email</th>
+                            <th></th>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <?php foreach($this->entities as $entity): ?>
+                            <tr>
+                                <td class="hidden-xs"><?= $entity->getId() ?></td>
+                                <td><?= $entity->getFullname() ?></td>
+                                <td><a href="mailto:<?= $entity->getEmail() ?>"><?= $entity->getEmail() ?></a></td>
+                                <td>
+                                    <a class="btn btn-sm btn-warning" href="<?= $this->url('admin/wildcard', ['controller' => $this->currentController(), 'action' => 'edit', 'id' => $entity->getId()]) ?>">
+                                        <?= $this->translate('Edit') ?>
+                                    </a>
+
+                                    <?php if($entity->getId() != $this->loggedAdmin->getId()): ?>
+
+                                        <a 
+                                            class="btn btn-sm btn-danger" 
+                                            href="#" 
+                                            data-toggle="dialog" 
+                                            data-href="<?= $this->url('admin/wildcard', ['controller' => $this->currentController(), 'action' => 'delete', 'id' => $entity->getId()]) ?>" 
+                                            data-modal-type="confirm" 
+                                            data-modal-title="<?= $this->translate('Delete Admin') ?>" 
+                                            data-modal-message="<?= sprintf($this->translate('Are you sure you want to delete admin %s (ID %s)?'), $entity->getFullname(), $entity->getId()) ?>" 
+                                            data-modal-button-yes="<?= $this->translate('Yes') ?>" 
+                                            data-modal-button-no="<?= $this->translate('No') ?>"
+                                        >
+                                            <?= $this->translate('Delete') ?>
+                                        </a>
+
+                                    <?php endif ?>
+                                </td>
+                            </tr>
+                        <?php endforeach ?>
+                        </tbody>
+                    </table>
+                    <div class="clearfix">
+                        <div class="pull-left">
+                            <a class="btn btn-success" href="<?= $this->url('admin', ['controller' => $this->currentController(), 'action' => 'add']) ?>">
+                                <?= $this->translate('Add') ?>
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</div>

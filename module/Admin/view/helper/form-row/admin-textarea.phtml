@@ -1,0 +1,26 @@
+<?php
+
+$formLabel = $this->plugin('formLabel');
+
+//Add class to label
+$labelAttributes = array_merge( (array) $this->element->getLabelAttributes(), array('class' => 'control-label') );
+
+//Add class to input
+$this->element->setAttribute( 'class', 'form-control ' . $this->element->getAttribute('class') );
+
+?>
+
+<div class="control-group">
+
+	<?= $formLabel->openTag( $labelAttributes ) . $this->label . $formLabel->closeTag() ?>
+    <div class="controls form-group">
+
+        <div class="col-sm-8">
+
+        	<?= $this->formElement($this->element) ?>
+
+        </div>
+
+    </div>
+
+</div>
