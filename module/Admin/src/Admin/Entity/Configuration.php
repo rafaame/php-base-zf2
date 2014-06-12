@@ -8,7 +8,7 @@ use Doctrine\ORM\Mapping as ORM,
 
 /** 
  * @ORM\Entity
- * @ORM\Table(name="admin")
+ * @ORM\Table(name="configuration")
  */
 class Configuration extends Base
 {
