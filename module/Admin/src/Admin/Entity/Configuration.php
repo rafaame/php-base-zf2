@@ -20,7 +20,7 @@ class Configuration extends Base
      */
     public $id;
 
-    /** @ORM\Column(type="string") */
+    /** @ORM\Column(type="string", name="_key") */
     public $key;
 	
 	/** @ORM\Column(type="string") */
@@ -28,25 +28,13 @@ class Configuration extends Base
 
     /** @ORM\Column(type="string") */
     public $label;
-	
-	/** @ORM\Column(type="string") */
-    public $email;
-	
-	/** @ORM\Column(type="string") */
-    public $password;
-
-    /** @ORM\Column(type="string") */
-    public $salt;
 
     public function __construct()
     {
 
-    	$this->firstName = '';
-    	$this->lastName = '';
-    	$this->role = 'admin';
-    	$this->email = '';
-    	$this->password = '';
-    	$this->salt = $this->generateSalt();
+    	$this->key = '';
+    	$this->value = '';
+    	$this->label = '';
 
     }
 
@@ -57,141 +45,88 @@ class Configuration extends Base
 
     }
 	
-	public function getFirstName()
+	/**
+	 * Getter for key
+	 *
+	 * @return mixed
+	 */
+	public function getKey()
 	{
-		
-		return $this->firstName;
-		
-	}
-
-	public function setFirstName($value)
-	{
-
-		$this->firstName = $value;
-
-		return $this;
-
-	}
-
-	public function getLastName()
-	{
-		
-		return $this->lastName;
-		
-	}
-
-	public function setLastName($value)
-	{
-
-		$this->lastName = $value;
-
-		return $this;
-
-	}
-
-	public function getFullname()
-	{
-
-		return $this->getFirstName() . ' ' . $this->getLastName();
-
-	}
-
-	public function getRole()
-	{
-		
-		return $this->role;
-		
-	}
-
-	public function setRole($value)
-	{
-
-		$this->role = $value;
-
-		return $this;
-
+	
+	    return $this->key;
+	
 	}
 	
-	public function getEmail()
+	/**
+	 * Setter for key
+	 *
+	 * @param mixed $key Value to set
+	 *
+	 * @return self
+	 */
+	public function setKey($key)
 	{
-		
-		return $this->email;
-		
+	
+	    $this->key = $key;
+	
+	    return $this;
+	
 	}
 
-	public function setEmail($value)
+	/**
+	 * Getter for value
+	 *
+	 * @return mixed
+	 */
+	public function getValue()
 	{
-
-		$this->email = $value;
-
-		return $this;
-
+	
+	    return $this->value;
+	
 	}
 	
-	public function getPassword()
+	/**
+	 * Setter for value
+	 *
+	 * @param mixed $value Value to set
+	 *
+	 * @return self
+	 */
+	public function setValue($value)
 	{
-		
-		return $this->password;
-		
+	
+	    $this->value = $value;
+	
+	    return $this;
+	
 	}
-
-	public function setPassword($value, $doHash = false)
+	
+	/**
+	 * Getter for label
+	 *
+	 * @return mixed
+	 */
+	public function getLabel()
 	{
-
-		//When in an editing form, in the case the user doesn't want to change the password (i.e. leave it blank),
-		//there will be a \Zend\Filter\Null, so the form will hydrate the entity with a null password. We simply ignore it.
-		if($value === null)
-			return;
-
-		if($doHash)
-			$this->password = self::hashPassword($this, $value);
-		else
-			$this->password = $value;
-
-		return $this;
-
+	
+	    return $this->label;
+	
 	}
-
-	public static function hashPassword(Admin $entity, $password)
+	
+	/**
+	 * Setter for label
+	 *
+	 * @param mixed $label Value to set
+	 *
+	 * @return self
+	 */
+	public function setLabel($label)
 	{
-
-		return md5( $entity->getSalt() . $password );
-		
-	}
-
-	public function getSalt()
-	{
-		
-		return $this->salt;
-		
-	}
-
-	public function setSalt($value)
-	{
-
-		$this->salt = $value;
-
-		return $this;
-
-	}
-
-	function generateSalt() 
-	{
-
-		$alphabet = "abcdefghijklmnopqrstuwxyzABCDEFGHIJKLMNOPQRSTUWXYZ0123456789";
-		$pass = array();
-		$alphaLength = strlen($alphabet) - 1;
-
-		for ($i = 0; $i < 64; $i++) 
-		{
-
-			$n = rand(0, $alphaLength);
-			$pass[] = $alphabet[$n];
-
-		}
-
-		return implode($pass);
-
+	
+	    $this->label = $label;
+	
+	    return $this;
+	
 	}
 
 }
