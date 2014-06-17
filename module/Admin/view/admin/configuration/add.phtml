@@ -1,0 +1,79 @@
+<?php $this->form->prepare() ?>
+<?php $this->form->setAttribute('class', 'form-horizontal') ?>
+
+<?= $this->form()->openTag($this->form) ?>
+
+<div class="row">
+    <div class="col-md-12">
+        <h2 class="page-title"><?= $this->translate('Configuration') ?> <small><?= $this->translate('Add') ?></small></h2>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-6">
+        <section class="widget">
+            <header>
+                <h4>
+                    <!-- @FIXME: decide icons -->
+                    <i class="fa fa-align-left"></i>
+                </h4>
+            </header>
+            <div class="body">
+
+                    <fieldset>
+
+                        <legend class="section"><?= $this->translate('Configuration') ?></legend>
+
+                        <?= $this->adminFormRow( $this->form->get('label') ) ?>
+                        <?= $this->adminFormRow( $this->form->get('key') ) ?>
+                        <?= $this->adminFormRow( $this->form->get('value') ) ?>
+
+                    </fieldset>
+
+                    <div class="form-actions">
+
+                        <div>
+
+                            <button type="submit" class="btn btn-primary"><?= $this->translate('Save') ?></button>
+                            <input class="btn btn-primary" type="submit" name="redirect-add" value="<?= $this->translate('Save and Add More') ?>" />
+                            
+                            <a 
+                                class="btn btn-default" 
+                                href="<?= $this->url('admin', ['controller' => $this->currentController()]) ?>"
+                            >
+                                <?= $this->translate('Cancel') ?>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+            </div>
+        </section>
+    </div>
+</div>
+
+<?= $this->form()->closeTag($this->form) ?>
+
+<?php $this->inlineScript()->captureStart() ?>
+
+$(document).ready(function()
+{
+
+    $('form').keydown(function(e)
+    {
+
+        if ((e.metaKey || e.ctrlKey) && e.keyCode === 13)
+        {
+
+            $('input[name="redirect-add"]').click();
+            e.preventDefault();
+
+        }
+
+    });
+
+    $('input:first').focus();
+
+});
+
+<?php $this->inlineScript()->captureEnd() ?>

@@ -12,7 +12,6 @@ return
         'ZendDeveloperTools',
         'DoctrineModule',
         'DoctrineORMModule',
-		'ZfcBase',
         
 		'Andreatta',
         'Admin',

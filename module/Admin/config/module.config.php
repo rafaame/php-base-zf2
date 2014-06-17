@@ -205,6 +205,7 @@ return
 			'Admin\Controller\Index' => 'Admin\Controller\IndexController',
 			'Admin\Controller\Auth' => 'Admin\Controller\AuthController',
 			'Admin\Controller\Admin' => 'Admin\Controller\AdminController',
+			'Admin\Controller\Configuration' => 'Admin\Controller\ConfigurationController',
 
 		],
 
@@ -334,6 +335,17 @@ return
 	            'controller' => 'Index',
 	            'action' => 'index',
 				'icon' => 'fa fa-home',
+
+	         ],
+
+	         [
+
+	         	'type' => 'Andreatta\Navigation\Page\Mvc',
+	            'label' => __('Configurations'),
+	            'route' => 'admin',
+	            'controller' => 'configuration',
+	            'action' => 'index',
+				'icon' => 'fa fa-gears',
 
 	         ],
 

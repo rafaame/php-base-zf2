@@ -18,15 +18,7 @@ class IndexController extends BaseController
     public function indexAction()
     {
 
-        return $this->forward()->dispatch('Admin\Controller\Statistics', 
-        [
-
-        	'action' => 'monetary', 
-        	'range' => 'daily', 
-        	'date-from' => ( new \DateTime('now') )->sub( new \DateInterval('P7D') )->format('Y-m-d'),
-        	'date-to' => ( new \DateTime('now') )->format('Y-m-d')
-
-        ]);
+        return new ViewModel();
 
     }
 
