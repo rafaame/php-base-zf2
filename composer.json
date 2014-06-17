@@ -8,14 +8,14 @@
         "zf2"
     ],
     "homepage": "http://framework.zend.com/",
-    "require": 
+    "require":
     {
         "php": ">=5.3.3",
-        "zendframework/zendframework": ">2.2.0rc1",
+        "zendframework/zendframework": "2.3.*",
         "doctrine/doctrine-module": "0.8.*",
         "doctrine/doctrine-orm-module": "0.8.*",
         "doctrine/migrations": "dev-master",
-        "zf-commons/zfc-base": "dev-master"
+        "doctrine/data-fixtures": "1.0.*"
     },
     "require-dev": 
     {
