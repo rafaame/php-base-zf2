@@ -18,16 +18,16 @@ class Configuration extends Base
      * @ORM\GeneratedValue(strategy="AUTO")
      * @ORM\Column(type="integer")
      */
-    public $id;
+    private $id;
 
     /** @ORM\Column(type="string", name="_key") */
-    public $key;
+    private $key;
 	
 	/** @ORM\Column(type="string") */
-    public $value;
+    private $value;
 
     /** @ORM\Column(type="string") */
-    public $label;
+    private $label;
 
     public function __construct()
     {

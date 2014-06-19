@@ -18,25 +18,25 @@ class Admin extends Base
      * @ORM\GeneratedValue(strategy="AUTO")
      * @ORM\Column(type="integer")
      */
-    public $id;
+    private $id;
 
     /** @ORM\Column(type="string", name="first_name") */
-    public $firstName;
+    private $firstName;
 	
 	/** @ORM\Column(type="string", name="last_name") */
-    public $lastName;
+    private $lastName;
 
     /** @ORM\Column(type="string") */
-    public $role;
+    private $role;
 	
 	/** @ORM\Column(type="string") */
-    public $email;
+    private $email;
 	
 	/** @ORM\Column(type="string") */
-    public $password;
+    private $password;
 
     /** @ORM\Column(type="string") */
-    public $salt;
+    private $salt;
 
     public function __construct()
     {
